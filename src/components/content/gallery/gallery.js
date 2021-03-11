@@ -218,8 +218,8 @@ export class GalleryNew extends React.Component {
 
   render() {
     return (
-
-      <section className='app' style={{width: '500px', height: '300px'}}>
+      <div className = {styles.gallery}>
+        <section className='app'>
         <ImageGallery
           ref={i => this._imageGallery = i}
           items={this.images}
@@ -245,8 +245,9 @@ export class GalleryNew extends React.Component {
           additionalClass="app-image-gallery"
           useWindowKeyDown={this.state.useWindowKeyDown}
         />
-        <p>Здесь должно быть описание к слайду № {this.state.index + 1}</p>
       </section>
+      <p>Здесь должно быть описание к слайду № {this.state.index + 1}</p>
+      </div>
     );
   }
 }

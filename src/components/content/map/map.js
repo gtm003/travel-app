@@ -1,6 +1,7 @@
-import React from "react"
-import { compose, withProps } from "recompose"
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
+import React from "react";
+import { compose, withProps } from "recompose";
+import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps";
+import styles from './map.module.scss';
 /*
 const MyMapComponent = compose(
   withProps({
@@ -82,7 +83,7 @@ export class Map extends React.Component {
 
   render() {
     return (
-      <div style={{ width: 500, height: 500 }} id={this.props.id} />
+      <div className ={styles.map} id={this.props.id} />
     );
   }
 }

@@ -11,7 +11,7 @@
       "type": "Point"
     },
     "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
+    "videoUrl": "https://www.youtube.com/embed/FlRwssZYRM0",
     "currency": "EUR",
     "ISOCode": "IT",
     "localizations": [
@@ -41,7 +41,7 @@
       "type": "Point"
     },
     "imageUrl": "https://kidpassage.com/images/publications/berlin-avguste-otdyh-pogoda/cover_original.jpg",
-    "videoUrl": "https://www.youtube.com/watch?v=IPbzWJNmndY&ab_channel=touropia",
+    "videoUrl": "https://www.youtube.com/embed/IPbzWJNmndY",
     "currency": "EUR",
     "ISOCode": "DE",
     "localizations": [
@@ -71,7 +71,7 @@
       "type": "Point"
     },
     "imageUrl": "https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
-    "videoUrl": "https://www.youtube.com/watch?v=wSHXd-K-jIk&ab_channel=touropia",
+    "videoUrl": "https://www.youtube.com/embed/wSHXd-K-jIk",
     "currency": "GBP",
     "ISOCode": "GB-ENG",
     "localizations": [
@@ -131,7 +131,7 @@
       "type": "Point"
     },
     "imageUrl": "https://d1bvpoagx8hqbg.cloudfront.net/originals/experience-brasilia-brazil-ana-julia-3af702255fa3e95988ca10b68b103352.jpg",
-    "videoUrl": "https://www.youtube.com/watch?v=q7zdJ-nMrlE&ab_channel=touropia",
+    "videoUrl": "https://www.youtube.com/embed/q7zdJ-nMrlE",
     "currency": "BRL",
     "ISOCode": "BR",
     "localizations": [
