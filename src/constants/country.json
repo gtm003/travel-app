@@ -220,22 +220,22 @@
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
+    "imageUrl": "https://kuku.travel/wp-content/uploads/2018/03/%D0%91%D0%B5%D1%80%D0%BD-%D0%A0%D0%B5%D0%BA%D0%B0-%D0%90%D0%B0%D1%80%D0%B5.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=oZRBUBbfIJ8&ab_channel=touropia",
+    "currency": "CHF",
+    "ISOCode": "CH",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "Bern",
+        "description": "Switzerland, federated country of central Europe. Switzerland’s administrative capital is Bern, while Lausanne serves as its judicial centre. Switzerland’s small size—its total area is about half that of Scotland—and its modest population give little indication of its international significance.\nA landlocked country of towering mountains, deep Alpine lakes, grassy valleys dotted with neat farms and small villages, and thriving cities that blend the old and the new, Switzerland is the nexus of the diverse physical and cultural geography of western Europe, renowned for both its natural beauty and its way of life. Aspects of both have become bywords for the country, whose very name conjures images of the glacier-carved Alps beloved of writers, artists, photographers, and outdoor sports enthusiasts from around the world.",
+        "name": "Switzerland "
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Берн",
+        "description": "Швейцария, федеративная страна Центральной Европы. Административная столица Швейцарии - Берн, а Лозанна - ее судебный центр. Небольшие размеры Швейцарии - ее общая площадь составляет примерно половину площади Шотландии - и ее скромное население мало указывает на ее международное значение.\nСтрана, не имеющая выхода к морю, с высокими горами, глубокими альпийскими озерами, травянистыми долинами, усеянными аккуратными фермами и небольшими деревнями, а также процветающими городами, сочетающими в себе старое и новое, Швейцария является центром разнообразной физической и культурной географии Западной Европы, известной как его естественная красота и его образ жизни. Оба аспекта стали притчей во языцех для страны, само название которой вызывает в воображении образы высеченных ледниками Альп, любимых писателями, художниками, фотографами и любителями спорта на открытом воздухе со всего мира.",
+        "name": "Швейцария"
       }
     ]
   }
