@@ -4,19 +4,20 @@ import styles from './content.module.scss';
 import country from '../../constants/country.json';
 import Card from './card/card';
 import Description from './description/description';
-import Gallery from './gallery/gallery';
+import Gallery, { GalleryNew } from './gallery/gallery';
 import VideoPlayer from './video/video';
 import {Map} from './map/map';
 
 export default function Content(props) {
   //const {onToggleDefeat} = useContext(Context);
   //console.log(country);
+  //<Gallery country = {props.country} indexLang = {props.indexLang}/>
   return (
     <React.Fragment>
     {props.country && (
     <div className = {styles.contentCountry}>
-      <Description country = {props.country}/>
-      <Gallery />
+      <Description country = {props.country} indexLang = {props.indexLang}/>
+      <GalleryNew/>
       <VideoPlayer />
       <Map
         id="myMap"
@@ -25,7 +26,7 @@ export default function Content(props) {
           zoom: 8
         }}
         onMapLoad={map => {
-          var marker = new window.google.maps.Marker({
+          const marker = new window.google.maps.Marker({
             position: { lat: 41.902782, lng: 12.496365 },
             map: map,
             title: 'Rome'
@@ -38,7 +39,7 @@ export default function Content(props) {
     <div className = {styles.contentMain}>
       {
         country.map((item, index) => {
-          return <Card key = {index} country = {item}/>
+          return <Card key = {index} country = {item} indexLang = {props.indexLang}/>
         })
       }
     </div>)}

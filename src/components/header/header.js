@@ -40,9 +40,13 @@ function Search(props) {
 }
 
 function SelectLang(props) {
+  const indexLang = (
+    localStorage.getItem('indexLang') ? localStorage.getItem('indexLang') : 0
+  );
+  const {selectLang} = useContext(Context);
   return (
     <div className={styles.selectLang}>
-      <select>
+      <select defaultValue = {indexLang} onChange = {(event) => selectLang(event.target.value)}>
           <option value="0">English</option>
           <option value="1">Русский</option>
           <option value="2">Беларускі</option>

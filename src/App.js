@@ -14,17 +14,24 @@ function App() {
   };
   
   const [country, setCountry] = useState(null);
+  const [indexLang, setIndexLang] = useState(0);
 
   function selectCountry(country) {
     console.log(country);
     setCountry(country);
   }
 
+  function selectLang(index) {
+    console.log(index);
+    setIndexLang(index);
+    localStorage.setItem('indexLang', index);
+  }
+
   return (
-    <Context.Provider value = {{selectCountry}}>
+    <Context.Provider value = {{selectCountry, selectLang}}>
       <div className = 'wrapper' style={wrapperStyle}>
-        <Header country = {country}/>
-        <Content country = {country}/>
+        <Header country = {country} indexLang = {indexLang}/>
+        <Content country = {country} indexLang = {indexLang}/>
         <Footer />
       </div>
     </Context.Provider>
