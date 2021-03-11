@@ -17,7 +17,6 @@ function App() {
   const [indexLang, setIndexLang] = useState(0);
 
   function selectCountry(country) {
-    console.log(country);
     setCountry(country);
   }
 
