@@ -65,27 +65,27 @@
     },
     "capitalLocation": {
       "coordinates": [
-        23.7162200,
-        37.9794500
+        -0.1257400,
+        51.5085300
       ],
       "type": "Point"
     },
-    "imageUrl": "https://cdn.iz.ru/sites/default/files/styles/1920x1080/public/article-2019-06/Depositphotos_196534920_xl-2015.jpg?itok=LuNQDz3I",
-    "videoUrl": "https://www.youtube.com/watch?v=-tc_M6ANV3A&ab_channel=touropia",
-    "currency": "EUR",
-    "ISOCode": "GR",
+    "imageUrl": "https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=wSHXd-K-jIk&ab_channel=touropia",
+    "currency": "GBP",
+    "ISOCode": "GB-ENG",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Athens",
-        "description": "Greece (Greek: Ελλάδα, Ellada, [eˈlaða]), also known as Hellas, and officially the Hellenic Republic. Greece has a population of 10.7 million people (in 2020). The largest city and national capital is Athens; spoken languages are Greek (official) and Turkish (predominantly spoken by a minority of Turks in Western Thrace).Greece has the longest coastline in Europe and is the southernmost country in Europe. The mainland has rugged mountains, forests, and lakes, but the country is well known for the thousands of islands dotting the blue Aegean Sea to the east, the Mediterranean Sea to the south, and the Ionian Sea to the west.The country is divided into three geographical regions: the mainland, the islands, and Peloponnese, the peninsula south of the mainland.",
-        "name": "Greece"
+        "capital": "London",
+        "description": "England is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south.",
+        "name": "England"
       },
       {
         "lang": "ru",
-        "capital": "Афины",
-        "description": "Греция (греч. Ελλάδα [eˈlaða]), также Третья Греческая республика, официально — Греческая Республика (греч. Ελληνική Δημοκρατία [eliniˈci ðimokraˈtia]) — государство в Южной ЕвропеПлощадь 132 000 км².Население Греции составляет 10,7 миллиона человек (на 2020 год). Самый большой город и столица страны - Афины; разговорные языки - греческий (официальный) и турецкий (на котором преимущественно говорит меньшинство турок в Западной Фракии). Греция имеет самую длинную береговую линию в Европе и является самой южной страной Европы. На материке есть скалистые горы, леса и озера, но страна хорошо известна тысячами островов, усеивающих синее Эгейское море на востоке, Средиземное море на юге и Ионическое море на западе. Страна разделена на три географических региона: материк, острова и Пелопоннес, полуостров к югу от материка.",
-        "name": "Греция"
+        "capital": "Лондон",
+        "description": "Англия - это страна, которая входит в состав Соединенного Королевства. Он граничит с Уэльсом на западе и Шотландией на севере. Ирландское море находится к северо-западу от Англии, а Кельтское море - на юго-запад. Англия отделена от континентальной Европы Северным морем на востоке и Ла-Маншем на юге.",
+        "name": "Англия"
       }
     ]
   },
