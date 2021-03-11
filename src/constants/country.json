@@ -35,27 +35,117 @@
     },
     "capitalLocation": {
       "coordinates": [
-        12.496365,
-        41.902782
+        13.4105300,
+        52.5243700
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
+    "imageUrl": "https://kidpassage.com/images/publications/berlin-avguste-otdyh-pogoda/cover_original.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=IPbzWJNmndY&ab_channel=touropia",
     "currency": "EUR",
-    "ISOCode": "IT",
+    "ISOCode": "DE",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "Berlin",
+        "description": "Germany is a country located in the heart of Western Europe. It is bordered by Denmark, Poland, Czechia, Austria, Switzerland, France, Luxembourg, Belgium, Netherlands, the North Sea, and the Baltic Sea. Germany has a strategic location on the North European Plain and along the entrance to the Baltic Sea. The government system is a federal republic; the chief of state is the president, and the head of government is the chancellor. Germany has a mixed economic system which includes a variety of private freedom, combined with centralized economic planning and government regulation. Germany is a member of the European Union (EU).",
+        "name": "Germany"
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Берлин",
+        "description": "Германия - страна, расположенная в самом сердце Западной Европы. Онa граничит с Данией, Польшей, Чехией, Австрией, Швейцарией, Францией, Люксембургом, Бельгией, Нидерландами, Северным и Балтийским морями. Германия занимает стратегическое положение на Северо-Европейской равнине и у входа в Балтийское море. Государственная система - федеративная республика; глава государства - президент, а глава правительства - канцлер. В Германии смешанная экономическая система, которая включает в себя различные частные свободы в сочетании с централизованным экономическим планированием и государственным регулированием. Германия является членом Европейского Союза (ЕС).",
+        "name": "Германия"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "capitalLocation": {
+      "coordinates": [
+        -0.1257400,
+        51.5085300
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=wSHXd-K-jIk&ab_channel=touropia",
+    "currency": "GBP",
+    "ISOCode": "GB-ENG",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "London",
+        "description": "England is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south.",
+        "name": "England"
+      },
+      {
+        "lang": "ru",
+        "capital": "Лондон",
+        "description": "Англия - это страна, которая входит в состав Соединенного Королевства. Он граничит с Уэльсом на западе и Шотландией на севере. Ирландское море находится к северо-западу от Англии, а Кельтское море - на юго-запад. Англия отделена от континентальной Европы Северным морем на востоке и Ла-Маншем на юге.",
+        "name": "Англия"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "capitalLocation": {
+      "coordinates": [
+        -77.0363700,
+        38.8951100
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://img-cdn.tinkoffjournal.ru/-/main____wachington___shutterstock_371583031.6u7swtpjytxf.jpg",
+    "videoUrl": "https://youtu.be/FlRwssZYRM0",
+    "currency": "USD",
+    "ISOCode": "US",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Washington",
+        "description": "United States of America, abbreviated U.S. or U.S.A., byname America, country in North America, a federal republic of 50 states. Besides the 48 conterminous states that occupy the middle latitudes of the continent, the United States includes the state of Alaska, at the northwestern extreme of North America, and the island state of Hawaii, in the mid-Pacific Ocean. The conterminous states are bounded on the north by Canada, on the east by the Atlantic Ocean, on the south by the Gulf of Mexico and Mexico, and on the west by the Pacific Ocean. The United States is the fourth largest country in the world in area (after Russia, Canada, and China). The national capital is Washington, which is coextensive with the District of Columbia, the federal capital region created in 1790. The major characteristic of the United States is probably its great variety. Its physical environment ranges from the Arctic to the subtropical, from the moist rain forest to the arid desert, from the rugged mountain peak to the flat prairie. Although the total population of the United States is large by world standards, its overall population density is relatively low. The country embraces some of the world’s largest urban concentrations as well as some of the most extensive areas that are almost devoid of habitation.",
+        "name": "United States of America"
+      },
+      {
+        "lang": "ru",
+        "capital": "Вашингтон",
+        "description": "Соединенные Штаты Америки, сокращенно США, страна в Северной Америке, федеративная республика из 50 штатов. Помимо 48 смежных штатов, расположенных на средних широтах континента, Соединенные Штаты включают штат Аляска на северо-западе Северной Америки и островной штат Гавайи в центре Тихого океана. Смежные государства ограничены на севере Канадой, на востоке - Атлантическим океаном, на юге - Мексиканским заливом и Мексикой, а на западе - Тихим океаном. Соединенные Штаты являются четвертой по величине страной в мире по площади (после России, Канады и Китая). Столица страны - Вашингтон, который совпадает с округом Колумбия, федеральным столичным регионом, созданным в 1790 году. Основная характеристика Соединенных Штатов, вероятно, заключается в их большом разнообразии. Его физическая среда варьируется от арктической до субтропической, от влажных тропических лесов до засушливой пустыни, от крутых горных вершин до плоских прерий. Хотя общая численность населения Соединенных Штатов Америки велика по мировым стандартам, общая плотность населения относительно невысока. Страна включает в себя одни из крупнейших в мире городов с концентрацией, а также некоторые из самых обширных районов, которые почти лишены жилья.",
+        "name": "Соединённые Штаты Америки"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "capitalLocation": {
+      "coordinates": [
+        -44.4333300,
+        -16.2063900
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://d1bvpoagx8hqbg.cloudfront.net/originals/experience-brasilia-brazil-ana-julia-3af702255fa3e95988ca10b68b103352.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=q7zdJ-nMrlE&ab_channel=touropia",
+    "currency": "BRL",
+    "ISOCode": "BR",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Brasilia",
+        "description": "Brazil, officially Federative Republic of Brazil, Portuguese República Federativa do Brasil, country of South America that occupies half the continent’s landmass. It is the fifth largest country in the world, exceeded in size only by Russia, Canada, China, and the United States, though its area is greater than that of the 48 conterminous U.S. states. Brazil faces the Atlantic Ocean along 4,600 miles (7,400 km) of coastline and shares more than 9,750 miles (15,700 km) of inland borders with every South American country except Chile and Ecuador—specifically, Uruguay to the south; Argentina, Paraguay, and Bolivia to the southwest; Peru to the west; Colombia to the northwest; and Venezuela, Guyana, Suriname, and French Guiana to the north. Brazil stretches roughly 2,700 miles (4,350 km) from north to south and from east to west to form a vast irregular triangle that encompasses a wide range of tropical and subtropical landscapes, including wetlands, savannas, plateaus, and low mountains. Brazil contains most of the Amazon River basin, which has the world’s largest river system and the world’s most-extensive virgin rainforest. The country contains no desert, high-mountain, or arctic environments.",
+        "name": "Brazil"
+      },
+      {
+        "lang": "ru",
+        "capital": "Бразилиа",
+        "description": "Бразилия, официально Федеративная Республика Бразилия, Португальская Федеративная Республика Бразилия, страна Южной Америки, занимающая половину территории континента. Это пятая по величине страна в мире, уступая по размерам только России, Канаде, Китаю и США, хотя ее площадь больше, чем у 48 соседних штатов США. Бразилия выходит к Атлантическому океану вдоль береговой линии на 4600 миль (7400 км) и имеет более 9750 миль (15700 км) внутренних границ со всеми южноамериканскими странами, кроме Чили и Эквадора, в частности, с Уругваем на юге; Аргентина, Парагвай и Боливия на юго-западе; Перу на западе; Колумбия на северо-западе; и Венесуэла, Гайана, Суринам и Французская Гвиана на севере. Бразилия простирается примерно на 2700 миль (4350 км) с севера на юг и с востока на запад, образуя обширный неправильный треугольник, охватывающий широкий спектр тропических и субтропических ландшафтов, включая водно-болотные угодья, саванны, плато и невысокие горы. В Бразилии находится большая часть бассейна реки Амазонки, в которой находится крупнейшая в мире речная система и самые обширные девственные тропические леса в мире. В стране нет пустынь, высокогорья или арктики.",
+        "name": "Бразилия"
       }
     ]
   },
@@ -70,22 +160,52 @@
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
+    "imageUrl": "",
+    "videoUrl": "https://www.youtube.com/watch?v=IgAnj6r1O48&ab_channel=touropia",
+    "currency": "INR",
+    "ISOCode": "IN",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "New Delhi",
+        "description": "India (Hindi: Bhārat), officially the Republic of India (Hindi: Bhārat Gaṇarājya), is a country in South Asia.India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India’s administrative centre. Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world’s total population, India is the second most populous country, after China.",
+        "name": "India"
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Нью-Дели",
+        "description": "Индия (хинди भारत Bhārat, англ. India), официальное название — Республика Индия (хинди भारत गणराज्य Bhārat Gaṇarājya, англ. Republic of India)Индия, страна, занимающая большую часть Южной Азии. Его столица - Нью-Дели, построенная в 20 веке к югу от исторического центра Старого Дели, чтобы служить административным центром Индии. Его правительство - конституционная республика, которая представляет собой очень разнообразное население, состоящее из тысяч этнических групп и, вероятно, сотен языков. Индия, где проживает примерно одна шестая населения мира, является второй по численности населения страной после Китая.",
+        "name": "Индия"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "capitalLocation": {
+      "coordinates": [
+        139.6917100,
+        35.6895000
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://www.whatusee.ru/wp-content/uploads/2014/10/IMG_3078.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=CxuiFNYnEr4&ab_channel=touropia",
+    "currency": "¥",
+    "ISOCode": "JP",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Tokyo",
+        "description": "Japan, island country lying off the east coast of Asia. It consists of a great string of islands in a northeast-southwest arc that stretches for approximately 1,500 miles (2,400 km) through the western North Pacific Ocean. Nearly the entire land area is taken up by the country’s four main islands; from north to south these are Hokkaido (Hokkaidō), Honshu (Honshū), Shikoku, and Kyushu (Kyūshū). Honshu is the largest of the four, followed in size by Hokkaido, Kyushu, and Shikoku. In addition, there are numerous smaller islands, the major groups of which are the Ryukyu (Nansei) Islands (including the island of Okinawa) to the south and west of Kyushu and the Izu, Bonin (Ogasawara), and Volcano (Kazan) islands to the south and east of central Honshu. The national capital, Tokyo (Tōkyō), in east-central Honshu, is one of the world’s most populous cities.",
+        "name": "Japan"
+      },
+      {
+        "lang": "ru",
+        "capital": "Токио",
+        "description": "Япония, островное государство у восточного побережья Азии. Он состоит из большой череды островов, образующих дугу с северо-востока на юго-запад, которая тянется примерно на 1500 миль (2400 км) через западную часть северной части Тихого океана. Почти вся территория страны занята четырьмя главными островами страны; с севера на юг это Хоккайдо (Хоккайдо), Хонсю (Хонсю), Сикоку и Кюсю (Кюсю). Хонсю - самый большой из четырех, за ним следуют Хоккайдо, Кюсю и Сикоку. Кроме того, есть множество более мелких островов, основными группами которых являются острова Рюкю (Нансей) (включая остров Окинава) к югу и западу от Кюсю, а также острова Идзу, Бонин (Огасавара) и Вулкан (Казань). к югу и востоку от центрального Хонсю. Столица страны, Токио (Токио), находится на востоке центральной части острова Хонсю, и является одним из самых густонаселенных городов мира.",
+        "name": "Япония"
       }
     ]
   },
@@ -100,142 +220,22 @@
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
+    "imageUrl": "https://kuku.travel/wp-content/uploads/2018/03/%D0%91%D0%B5%D1%80%D0%BD-%D0%A0%D0%B5%D0%BA%D0%B0-%D0%90%D0%B0%D1%80%D0%B5.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=oZRBUBbfIJ8&ab_channel=touropia",
+    "currency": "CHF",
+    "ISOCode": "CH",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "Bern",
+        "description": "Switzerland, federated country of central Europe. Switzerland’s administrative capital is Bern, while Lausanne serves as its judicial centre. Switzerland’s small size—its total area is about half that of Scotland—and its modest population give little indication of its international significance.\nA landlocked country of towering mountains, deep Alpine lakes, grassy valleys dotted with neat farms and small villages, and thriving cities that blend the old and the new, Switzerland is the nexus of the diverse physical and cultural geography of western Europe, renowned for both its natural beauty and its way of life. Aspects of both have become bywords for the country, whose very name conjures images of the glacier-carved Alps beloved of writers, artists, photographers, and outdoor sports enthusiasts from around the world.",
+        "name": "Switzerland "
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
-      }
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "60270368f347c8267c02a528"
-    },
-    "capitalLocation": {
-      "coordinates": [
-        12.496365,
-        41.902782
-      ],
-      "type": "Point"
-    },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
-    "localizations": [
-      {
-        "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
-      },
-      {
-        "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
-      }
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "60270368f347c8267c02a528"
-    },
-    "capitalLocation": {
-      "coordinates": [
-        12.496365,
-        41.902782
-      ],
-      "type": "Point"
-    },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
-    "localizations": [
-      {
-        "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
-      },
-      {
-        "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
-      }
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "60270368f347c8267c02a528"
-    },
-    "capitalLocation": {
-      "coordinates": [
-        12.496365,
-        41.902782
-      ],
-      "type": "Point"
-    },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
-    "localizations": [
-      {
-        "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
-      },
-      {
-        "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
-      }
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "60270368f347c8267c02a528"
-    },
-    "capitalLocation": {
-      "coordinates": [
-        12.496365,
-        41.902782
-      ],
-      "type": "Point"
-    },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
-    "localizations": [
-      {
-        "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
-      },
-      {
-        "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Берн",
+        "description": "Швейцария, федеративная страна Центральной Европы. Административная столица Швейцарии - Берн, а Лозанна - ее судебный центр. Небольшие размеры Швейцарии - ее общая площадь составляет примерно половину площади Шотландии - и ее скромное население мало указывает на ее международное значение.\nСтрана, не имеющая выхода к морю, с высокими горами, глубокими альпийскими озерами, травянистыми долинами, усеянными аккуратными фермами и небольшими деревнями, а также процветающими городами, сочетающими в себе старое и новое, Швейцария является центром разнообразной физической и культурной географии Западной Европы, известной как его естественная красота и его образ жизни. Оба аспекта стали притчей во языцех для страны, само название которой вызывает в воображении образы высеченных ледниками Альп, любимых писателями, художниками, фотографами и любителями спорта на открытом воздухе со всего мира.",
+        "name": "Швейцария"
       }
     ]
   }

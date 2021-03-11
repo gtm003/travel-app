@@ -1,0 +1,133 @@
+[
+  {
+    "country": "Italy",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
+        "name": "The Colosseum"
+      },
+      {
+        "lang": "ru",
+        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
+        "name": "Колизей"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
+        "name": "The Colosseum"
+      },
+      {
+        "lang": "ru",
+        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
+        "name": "Колизей"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
+        "name": "The Colosseum"
+      },
+      {
+        "lang": "ru",
+        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
+        "name": "Колизей"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
+        "name": "The Colosseum"
+      },
+      {
+        "lang": "ru",
+        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
+        "name": "Колизей"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
+        "name": "The Colosseum"
+      },
+      {
+        "lang": "ru",
+        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
+        "name": "Колизей"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
+        "name": "The Colosseum"
+      },
+      {
+        "lang": "ru",
+        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
+        "name": "Колизей"
+      }
+    ]
+  }
+]

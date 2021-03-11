@@ -7,14 +7,17 @@ const images = [
   {
     original: 'https://picsum.photos/id/1018/1000/600/',
     thumbnail: 'https://picsum.photos/id/1018/250/150/',
+    description: 'Custom class for slides & thumbnails'
   },
   {
     original: 'https://picsum.photos/id/1015/1000/600/',
     thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    description: 'Custom class for slides & thumbnails'
   },
   {
     original: 'https://picsum.photos/id/1019/1000/600/',
     thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    description: 'Custom class for slides & thumbnails'
   },
 ];
 
@@ -25,6 +28,231 @@ export default function Gallery () {
     </div>
   );
 }
+
+const PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/';
+
+export class GalleryNew extends React.Component {
+
+  constructor() {
+    super();
+    this.state = {
+      index: 0,
+      showIndex: true,
+      showBullets: true,
+      infinite: true,
+      showThumbnails: true,
+      showFullscreenButton: true,
+      showGalleryFullscreenButton: true,
+      showPlayButton: true,
+      showGalleryPlayButton: true,
+      showNav: true,
+      isRTL: false,
+      slideDuration: 450,
+      slideInterval: 2000,
+      slideOnThumbnailOver: false,
+      thumbnailPosition: 'bottom',
+      showVideo: {},
+      useWindowKeyDown: true,
+    };
+
+    this.images = [
+      {
+        thumbnail: `${PREFIX_URL}4v.jpg`,
+        original: `${PREFIX_URL}4v.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/4pSzhZ76GdM?autoplay=1&showinfo=0',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        original: `${PREFIX_URL}image_set_default.jpg`,
+        thumbnail: `${PREFIX_URL}image_set_thumb.jpg`,
+        imageSet: [
+          {
+            srcSet: `${PREFIX_URL}image_set_cropped.jpg`,
+            media : '(max-width: 640px)',
+          },
+          {
+            srcSet: `${PREFIX_URL}image_set_default.jpg`,
+            media : '(min-width: 640px)',
+          }
+        ]
+      },
+      {
+        original: `${PREFIX_URL}1.jpg`,
+        thumbnail: `${PREFIX_URL}1t.jpg`,
+        originalClass: 'featured-slide',
+        thumbnailClass: 'featured-thumb',
+      },
+    ].concat(this._getStaticImages());
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.slideInterval !== prevState.slideInterval ||
+        this.state.slideDuration !== prevState.slideDuration) {
+      // refresh setInterval
+      this._imageGallery.pause();
+      this._imageGallery.play();
+    }
+  }
+
+  _onImageClick(event) {
+    console.debug('clicked on image', event.target, 'at index', this._imageGallery.getCurrentIndex());
+  }
+
+  _onImageLoad(event) {
+    console.debug('loaded image', event.target.src);
+  }
+
+  _onSlide(index) {
+    this._resetVideo();
+    console.debug('slid to index', index);
+    this.setState({
+      index: index
+    })
+    //console.log(index);
+  }
+
+  _onPause(index) {
+    console.debug('paused on index', index);
+  }
+
+  _onScreenChange(fullScreenElement) {
+    console.debug('isFullScreen?', !!fullScreenElement);
+  }
+
+  _onPlay(index) {
+    console.debug('playing from index', index);
+  }
+
+  _handleInputChange(state, event) {
+    this.setState({[state]: event.target.value});
+  }
+
+  _handleCheckboxChange(state, event) {
+    this.setState({[state]: event.target.checked});
+  }
+
+  _handleThumbnailPositionChange(event) {
+    this.setState({thumbnailPosition: event.target.value});
+  }
+
+  _getStaticImages() {
+    let images = [];
+    for (let i = 2; i < 12; i++) {
+      images.push({
+        original: `${PREFIX_URL}${i}.jpg`,
+        thumbnail:`${PREFIX_URL}${i}t.jpg`,
+        //description: "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
+      });
+    }
+
+    return images;
+  }
+
+  _resetVideo() {
+    this.setState({showVideo: {}});
+
+    if (this.state.showPlayButton) {
+      this.setState({showGalleryPlayButton: true});
+    }
+
+    if (this.state.showFullscreenButton) {
+      this.setState({showGalleryFullscreenButton: true});
+    }
+  }
+
+  _toggleShowVideo(url) {
+    this.state.showVideo[url] = !Boolean(this.state.showVideo[url]);
+    this.setState({
+      showVideo: this.state.showVideo
+    });
+
+    if (this.state.showVideo[url]) {
+      if (this.state.showPlayButton) {
+        this.setState({showGalleryPlayButton: false});
+      }
+
+      if (this.state.showFullscreenButton) {
+        this.setState({showGalleryFullscreenButton: false});
+      }
+    }
+  }
+
+  _renderVideo(item) {
+    return (
+      <div>
+        {
+          this.state.showVideo[item.embedUrl] ?
+            <div className='video-wrapper'>
+                <a
+                  className='close-video'
+                  onClick={this._toggleShowVideo.bind(this, item.embedUrl)}
+                >
+                </a>
+                <iframe
+                  width='560'
+                  height='315'
+                  src={item.embedUrl}
+                  frameBorder='0'
+                  allowFullScreen
+                >
+                </iframe>
+            </div>
+          :
+            <a onClick={this._toggleShowVideo.bind(this, item.embedUrl)}>
+              <div className='play-button'></div>
+              <img className='image-gallery-image' src={item.original} />
+              {
+                item.description &&
+                  <span
+                    className='image-gallery-description'
+                    style={{right: '30%', left: 'initial', bottom: '5%',}}
+                  >
+                    {item.description}
+                  </span>
+              }
+            </a>
+        }
+      </div>
+    );
+  }
+
+  render() {
+    return (
+
+      <section className='app' style={{width: '500px', height: '300px'}}>
+        <ImageGallery
+          ref={i => this._imageGallery = i}
+          items={this.images}
+          lazyLoad={false}
+          onClick={this._onImageClick.bind(this)}
+          onImageLoad={this._onImageLoad}
+          onSlide={this._onSlide.bind(this)}
+          onPause={this._onPause.bind(this)}
+          onScreenChange={this._onScreenChange.bind(this)}
+          onPlay={this._onPlay.bind(this)}
+          infinite={this.state.infinite}
+          showBullets={this.state.showBullets}
+          showFullscreenButton={this.state.showFullscreenButton && this.state.showGalleryFullscreenButton}
+          showPlayButton={this.state.showPlayButton && this.state.showGalleryPlayButton}
+          showThumbnails={this.state.showThumbnails}
+          showIndex={this.state.showIndex}
+          showNav={this.state.showNav}
+          isRTL={this.state.isRTL}
+          thumbnailPosition={this.state.thumbnailPosition}
+          slideDuration={parseInt(this.state.slideDuration)}
+          slideInterval={parseInt(this.state.slideInterval)}
+          slideOnThumbnailOver={this.state.slideOnThumbnailOver}
+          additionalClass="app-image-gallery"
+          useWindowKeyDown={this.state.useWindowKeyDown}
+        />
+        <p>Здесь должно быть описание к слайду № {this.state.index + 1}</p>
+      </section>
+    );
+  }
+}
+
+
+
 /*
 function renderLeftNav(onClick, disabled) {
   return (
@@ -35,6 +263,8 @@ function renderLeftNav(onClick, disabled) {
   )
 }*/
 
+
+/*
 const PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/';
 
 export class GalleryNew extends React.Component {
@@ -42,7 +272,7 @@ export class GalleryNew extends React.Component {
   constructor() {
     super();
     this.state = {
-      showIndex: false,
+      showIndex: true,
       showBullets: true,
       infinite: true,
       showThumbnails: true,
@@ -74,11 +304,11 @@ export class GalleryNew extends React.Component {
         imageSet: [
           {
             srcSet: `${PREFIX_URL}image_set_cropped.jpg`,
-            media : '(max-width: 1280px)',
+            media : '(max-width: 640px)',
           },
           {
             srcSet: `${PREFIX_URL}image_set_default.jpg`,
-            media : '(min-width: 1280px)',
+            media : '(min-width: 640px)',
           }
         ]
       },
@@ -112,6 +342,7 @@ export class GalleryNew extends React.Component {
   _onSlide(index) {
     this._resetVideo();
     console.debug('slid to index', index);
+    //console.log(index);
   }
 
   _onPause(index) {
@@ -381,4 +612,4 @@ export class GalleryNew extends React.Component {
       </section>
     );
   }
-}
+}*/
