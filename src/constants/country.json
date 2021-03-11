@@ -40,7 +40,7 @@
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
+    "imageUrl": "https://kidpassage.com/images/publications/berlin-avguste-otdyh-pogoda/cover_original.jpg",
     "videoUrl": "https://www.youtube.com/watch?v=IPbzWJNmndY&ab_channel=touropia",
     "currency": "EUR",
     "ISOCode": "DE",
@@ -65,27 +65,27 @@
     },
     "capitalLocation": {
       "coordinates": [
-        12.496365,
-        41.902782
+        23.7162200,
+        37.9794500
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
+    "imageUrl": "https://cdn.iz.ru/sites/default/files/styles/1920x1080/public/article-2019-06/Depositphotos_196534920_xl-2015.jpg?itok=LuNQDz3I",
+    "videoUrl": "https://www.youtube.com/watch?v=-tc_M6ANV3A&ab_channel=touropia",
     "currency": "EUR",
-    "ISOCode": "IT",
+    "ISOCode": "GR",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "Athens",
+        "description": "Greece (Greek: Ελλάδα, Ellada, [eˈlaða]), also known as Hellas, and officially the Hellenic Republic. Greece has a population of 10.7 million people (in 2020). The largest city and national capital is Athens; spoken languages are Greek (official) and Turkish (predominantly spoken by a minority of Turks in Western Thrace).Greece has the longest coastline in Europe and is the southernmost country in Europe. The mainland has rugged mountains, forests, and lakes, but the country is well known for the thousands of islands dotting the blue Aegean Sea to the east, the Mediterranean Sea to the south, and the Ionian Sea to the west.The country is divided into three geographical regions: the mainland, the islands, and Peloponnese, the peninsula south of the mainland.",
+        "name": "Greece"
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Афины",
+        "description": "Греция (греч. Ελλάδα [eˈlaða]), также Третья Греческая республика, официально — Греческая Республика (греч. Ελληνική Δημοκρατία [eliniˈci ðimokraˈtia]) — государство в Южной ЕвропеПлощадь 132 000 км².Население Греции составляет 10,7 миллиона человек (на 2020 год). Самый большой город и столица страны - Афины; разговорные языки - греческий (официальный) и турецкий (на котором преимущественно говорит меньшинство турок в Западной Фракии). Греция имеет самую длинную береговую линию в Европе и является самой южной страной Европы. На материке есть скалистые горы, леса и озера, но страна хорошо известна тысячами островов, усеивающих синее Эгейское море на востоке, Средиземное море на юге и Ионическое море на западе. Страна разделена на три географических региона: материк, острова и Пелопоннес, полуостров к югу от материка.",
+        "name": "Греция"
       }
     ]
   },
