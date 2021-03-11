@@ -160,22 +160,22 @@
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
+    "imageUrl": "",
+    "videoUrl": "https://www.youtube.com/watch?v=IgAnj6r1O48&ab_channel=touropia",
+    "currency": "INR",
+    "ISOCode": "IN",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "New Delhi",
+        "description": "India (Hindi: Bhārat), officially the Republic of India (Hindi: Bhārat Gaṇarājya), is a country in South Asia.India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India’s administrative centre. Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world’s total population, India is the second most populous country, after China.",
+        "name": "India"
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Нью-Дели",
+        "description": "Индия (хинди भारत Bhārat, англ. India), официальное название — Республика Индия (хинди भारत गणराज्य Bhārat Gaṇarājya, англ. Republic of India)Индия, страна, занимающая большую часть Южной Азии. Его столица - Нью-Дели, построенная в 20 веке к югу от исторического центра Старого Дели, чтобы служить административным центром Индии. Его правительство - конституционная республика, которая представляет собой очень разнообразное население, состоящее из тысяч этнических групп и, вероятно, сотен языков. Индия, где проживает примерно одна шестая населения мира, является второй по численности населения страной после Китая.",
+        "name": "Индия"
       }
     ]
   },
@@ -185,27 +185,27 @@
     },
     "capitalLocation": {
       "coordinates": [
-        12.496365,
-        41.902782
+        139.6917100,
+        35.6895000
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
+    "imageUrl": "https://www.whatusee.ru/wp-content/uploads/2014/10/IMG_3078.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=CxuiFNYnEr4&ab_channel=touropia",
+    "currency": "¥",
+    "ISOCode": "JP",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "Tokyo",
+        "description": "Japan, island country lying off the east coast of Asia. It consists of a great string of islands in a northeast-southwest arc that stretches for approximately 1,500 miles (2,400 km) through the western North Pacific Ocean. Nearly the entire land area is taken up by the country’s four main islands; from north to south these are Hokkaido (Hokkaidō), Honshu (Honshū), Shikoku, and Kyushu (Kyūshū). Honshu is the largest of the four, followed in size by Hokkaido, Kyushu, and Shikoku. In addition, there are numerous smaller islands, the major groups of which are the Ryukyu (Nansei) Islands (including the island of Okinawa) to the south and west of Kyushu and the Izu, Bonin (Ogasawara), and Volcano (Kazan) islands to the south and east of central Honshu. The national capital, Tokyo (Tōkyō), in east-central Honshu, is one of the world’s most populous cities.",
+        "name": "Japan"
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Токио",
+        "description": "Япония, островное государство у восточного побережья Азии. Он состоит из большой череды островов, образующих дугу с северо-востока на юго-запад, которая тянется примерно на 1500 миль (2400 км) через западную часть северной части Тихого океана. Почти вся территория страны занята четырьмя главными островами страны; с севера на юг это Хоккайдо (Хоккайдо), Хонсю (Хонсю), Сикоку и Кюсю (Кюсю). Хонсю - самый большой из четырех, за ним следуют Хоккайдо, Кюсю и Сикоку. Кроме того, есть множество более мелких островов, основными группами которых являются острова Рюкю (Нансей) (включая остров Окинава) к югу и западу от Кюсю, а также острова Идзу, Бонин (Огасавара) и Вулкан (Казань). к югу и востоку от центрального Хонсю. Столица страны, Токио (Токио), находится на востоке центральной части острова Хонсю, и является одним из самых густонаселенных городов мира.",
+        "name": "Япония"
       }
     ]
   },
