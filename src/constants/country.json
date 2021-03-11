@@ -119,7 +119,7 @@
       "type": "Point"
     },
     "imageUrl": "https://img-cdn.tinkoffjournal.ru/-/main____wachington___shutterstock_371583031.6u7swtpjytxf.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
+    "videoUrl": "<https://www.youtube.com/embed/b7FNvq11CEw",
     "currency": "USD",
     "ISOCode": "US",
     "localizations": [
@@ -191,7 +191,7 @@
       "type": "Point"
     },
     "imageUrl": "https://media.tacdn.com/media/attractions-content--1x-1/0b/17/30/05.jpg",
-    "videoUrl": "https://www.youtube.com/watch?v=IgAnj6r1O48&ab_channel=touropia",
+    "videoUrl": "https://www.youtube.com/embed/IgAnj6r1O48",
     "currency": "INR",
     "ISOCode": "IN",
     "localizations": [
@@ -227,7 +227,7 @@
       "type": "Point"
     },
     "imageUrl": "https://www.whatusee.ru/wp-content/uploads/2014/10/IMG_3078.jpg",
-    "videoUrl": "https://www.youtube.com/watch?v=CxuiFNYnEr4&ab_channel=touropia",
+    "videoUrl": "https://www.youtube.com/embed/CxuiFNYnEr4",
     "currency": "¥",
     "ISOCode": "JP",
     "localizations": [
@@ -263,7 +263,7 @@
       "type": "Point"
     },
     "imageUrl": "https://kuku.travel/wp-content/uploads/2018/03/%D0%91%D0%B5%D1%80%D0%BD-%D0%A0%D0%B5%D0%BA%D0%B0-%D0%90%D0%B0%D1%80%D0%B5.jpg",
-    "videoUrl": "https://www.youtube.com/watch?v=oZRBUBbfIJ8&ab_channel=touropia",
+    "videoUrl": "https://www.youtube.com/embed/oZRBUBbfIJ8",
     "currency": "CHF",
     "ISOCode": "CH",
     "localizations": [
