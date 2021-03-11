@@ -125,27 +125,27 @@
     },
     "capitalLocation": {
       "coordinates": [
-        12.496365,
-        41.902782
+        -44.4333300,
+        -16.2063900
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
-    "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
+    "imageUrl": "https://d1bvpoagx8hqbg.cloudfront.net/originals/experience-brasilia-brazil-ana-julia-3af702255fa3e95988ca10b68b103352.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=q7zdJ-nMrlE&ab_channel=touropia",
+    "currency": "BRL",
+    "ISOCode": "BR",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "Brasilia",
+        "description": "Brazil, officially Federative Republic of Brazil, Portuguese República Federativa do Brasil, country of South America that occupies half the continent’s landmass. It is the fifth largest country in the world, exceeded in size only by Russia, Canada, China, and the United States, though its area is greater than that of the 48 conterminous U.S. states. Brazil faces the Atlantic Ocean along 4,600 miles (7,400 km) of coastline and shares more than 9,750 miles (15,700 km) of inland borders with every South American country except Chile and Ecuador—specifically, Uruguay to the south; Argentina, Paraguay, and Bolivia to the southwest; Peru to the west; Colombia to the northwest; and Venezuela, Guyana, Suriname, and French Guiana to the north. Brazil stretches roughly 2,700 miles (4,350 km) from north to south and from east to west to form a vast irregular triangle that encompasses a wide range of tropical and subtropical landscapes, including wetlands, savannas, plateaus, and low mountains. Brazil contains most of the Amazon River basin, which has the world’s largest river system and the world’s most-extensive virgin rainforest. The country contains no desert, high-mountain, or arctic environments.",
+        "name": "Brazil"
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Бразилиа",
+        "description": "Бразилия, официально Федеративная Республика Бразилия, Португальская Федеративная Республика Бразилия, страна Южной Америки, занимающая половину территории континента. Это пятая по величине страна в мире, уступая по размерам только России, Канаде, Китаю и США, хотя ее площадь больше, чем у 48 соседних штатов США. Бразилия выходит к Атлантическому океану вдоль береговой линии на 4600 миль (7400 км) и имеет более 9750 миль (15700 км) внутренних границ со всеми южноамериканскими странами, кроме Чили и Эквадора, в частности, с Уругваем на юге; Аргентина, Парагвай и Боливия на юго-западе; Перу на западе; Колумбия на северо-западе; и Венесуэла, Гайана, Суринам и Французская Гвиана на севере. Бразилия простирается примерно на 2700 миль (4350 км) с севера на юг и с востока на запад, образуя обширный неправильный треугольник, охватывающий широкий спектр тропических и субтропических ландшафтов, включая водно-болотные угодья, саванны, плато и невысокие горы. В Бразилии находится большая часть бассейна реки Амазонки, в которой находится крупнейшая в мире речная система и самые обширные девственные тропические леса в мире. В стране нет пустынь, высокогорья или арктики.",
+        "name": "Бразилия"
       }
     ]
   },
