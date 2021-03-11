@@ -1,6 +1,21 @@
 import React, {useEffect, useState} from "react";
 import './navbar.scss'
 import SearchBar from "../SearchBar/SearchBar";
+import styles from "../header/header.module.scss";
+import {actionsCommon} from "../../redux/commonReducer";
+
+
+function SelectLang() {
+    return (
+        <div className={'selectLang'}>
+            <select>
+                <option value="0">English</option>
+                <option value="1">Русский</option>
+                <option value="2">Беларускі</option>
+            </select>
+        </div>
+    )
+}
 
 const Navbar = (props) => {
     const [scrollTop, setScrollTop] = useState(0);
@@ -31,8 +46,9 @@ const Navbar = (props) => {
                 <div className={'navigation__logo__text'}>Travel App</div>
             </a>
             <div className={'navigation__search-bar'}>
-                <SearchBar />
+                <SearchBar searchProps={SearchProps}/>
             </div>
+            <SelectLang />
         </nav>
     )
 };

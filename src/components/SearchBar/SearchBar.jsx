@@ -34,10 +34,6 @@ const SearchBar = (props) => {
         }
     }, []);
 
-    useEffect(() => {
-        dispatch(setSuggestionWords(value));
-    }, [value]);
-
     const onChange = () => {
         const value = inputEl.current?.value;
         dispatch(setInput(value));

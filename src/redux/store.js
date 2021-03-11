@@ -1,10 +1,14 @@
-import {Action, applyMiddleware, combineReducers, compose, createStore} from "redux";
+import {applyMiddleware, combineReducers, compose, createStore} from "redux";
 import thunkMiddleware, {ThunkAction} from "redux-thunk";
+import homeReducer from "./homeReducer";
+import commonReducer from "./commonReducer";
+import countryReducer from "./countryReducer";
 
 const rootReducer = combineReducers({
-    homePage: homeReducer
+    homePage: homeReducer,
+    common: commonReducer,
+    countryPage: countryReducer
 })
-
 
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
