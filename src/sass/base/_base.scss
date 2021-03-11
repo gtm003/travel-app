@@ -1,0 +1,108 @@
+@import "src/sass/abstract/constants";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+body, html {
+  color: $color-main-text;
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+
+  background-color: $color-white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.none {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 10px
+}
+
+a {
+  color: inherit
+}
+
+h1 {
+  font-size: 26px
+}
+
+h2 {
+  font-size: 20px
+}
+
+h3 {
+  font-size: 18px
+}
+
+h4 {
+  font-size: 16px
+}
+
+h5 {
+  font-size: 14px
+}
+
+h6 {
+  font-size: 12px
+}
+
+h1,h2,h3 {
+  margin-top: 20px;
+  margin-bottom: 5px
+}
+
+h4,h5,h6 {
+  margin-top: 10px;
+  margin-bottom: 5px
+}
+
+h2,h3,h4,h5,h6 {
+  font-weight: 300
+}
+
+input,button,select,textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit
+}
+
+input[type=text]:focus,
+.form__textarea:focus,
+input[type=email]:focus,
+input[type=search]:focus,
+input[type=number]:focus,
+input[type=password]:focus {
+  border-color: $color-input-focus;
+  outline: 0
+}
+
+
+::placeholder {
+  color: $color-white-placeholder;
+  opacity: 1;
+}
+
+a img {
+  border: 0
+}
+

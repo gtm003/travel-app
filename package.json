@@ -7,12 +7,16 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
+    "axios": "^0.21.1",
+    "pexels": "^1.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-google-maps": "^9.4.5",
     "react-image-gallery": "^1.0.9",
+    "react-redux": "^7.2.2",
     "react-scripts": "4.0.2",
     "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
     "use-sound": "^2.0.1",
     "video-react": "^0.14.1",
     "web-vitals": "^1.1.0"
@@ -47,5 +51,16 @@
     "gh-pages": "^3.1.0",
     "node-sass": "^5.0.0",
     "sass-loader": "^11.0.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtm003/travel-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtm003/travel-app/issues"
   }
 }
