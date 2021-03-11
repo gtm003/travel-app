@@ -95,27 +95,27 @@
     },
     "capitalLocation": {
       "coordinates": [
-        12.496365,
-        41.902782
+        -77.0363700,
+        38.8951100
       ],
       "type": "Point"
     },
-    "imageUrl": "https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg",
+    "imageUrl": "https://img-cdn.tinkoffjournal.ru/-/main____wachington___shutterstock_371583031.6u7swtpjytxf.jpg",
     "videoUrl": "https://youtu.be/FlRwssZYRM0",
-    "currency": "EUR",
-    "ISOCode": "IT",
+    "currency": "USD",
+    "ISOCode": "US",
     "localizations": [
       {
         "lang": "en",
-        "capital": "Rome",
-        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
-        "name": "Italy"
+        "capital": "Washington",
+        "description": "United States of America, abbreviated U.S. or U.S.A., byname America, country in North America, a federal republic of 50 states. Besides the 48 conterminous states that occupy the middle latitudes of the continent, the United States includes the state of Alaska, at the northwestern extreme of North America, and the island state of Hawaii, in the mid-Pacific Ocean. The conterminous states are bounded on the north by Canada, on the east by the Atlantic Ocean, on the south by the Gulf of Mexico and Mexico, and on the west by the Pacific Ocean. The United States is the fourth largest country in the world in area (after Russia, Canada, and China). The national capital is Washington, which is coextensive with the District of Columbia, the federal capital region created in 1790. The major characteristic of the United States is probably its great variety. Its physical environment ranges from the Arctic to the subtropical, from the moist rain forest to the arid desert, from the rugged mountain peak to the flat prairie. Although the total population of the United States is large by world standards, its overall population density is relatively low. The country embraces some of the world’s largest urban concentrations as well as some of the most extensive areas that are almost devoid of habitation.",
+        "name": "United States of America"
       },
       {
         "lang": "ru",
-        "capital": "Рим",
-        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
-        "name": "Италия"
+        "capital": "Вашингтон",
+        "description": "Соединенные Штаты Америки, сокращенно США, страна в Северной Америке, федеративная республика из 50 штатов. Помимо 48 смежных штатов, расположенных на средних широтах континента, Соединенные Штаты включают штат Аляска на северо-западе Северной Америки и островной штат Гавайи в центре Тихого океана. Смежные государства ограничены на севере Канадой, на востоке - Атлантическим океаном, на юге - Мексиканским заливом и Мексикой, а на западе - Тихим океаном. Соединенные Штаты являются четвертой по величине страной в мире по площади (после России, Канады и Китая). Столица страны - Вашингтон, который совпадает с округом Колумбия, федеральным столичным регионом, созданным в 1790 году. Основная характеристика Соединенных Штатов, вероятно, заключается в их большом разнообразии. Его физическая среда варьируется от арктической до субтропической, от влажных тропических лесов до засушливой пустыни, от крутых горных вершин до плоских прерий. Хотя общая численность населения Соединенных Штатов Америки велика по мировым стандартам, общая плотность населения относительно невысока. Страна включает в себя одни из крупнейших в мире городов с концентрацией, а также некоторые из самых обширных районов, которые почти лишены жилья.",
+        "name": "Соединённые Штаты Америки"
       }
     ]
   },
