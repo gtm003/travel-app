@@ -7,11 +7,11 @@
     "countryId": {
       "$oid": "60270368f347c8267c02a528"
     },
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "photoUrl": "https://www.italia-italia.ru/wp-content/uploads/2016/03/kolosseo/002.jpg",
     "localizations": [
       {
         "lang": "en",
-        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
+        "description": "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
         "name": "The Colosseum"
       },
       {
@@ -29,17 +29,17 @@
     "countryId": {
       "$oid": "60270368f347c8267c02a528"
     },
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "photoUrl": "https://uso-location-kaiserslautern.s3.amazonaws.com/event-photos/99/11d4a1af-28fb-42ea-b24e-971ce6b69048-wide.jpg?1520523936",
     "localizations": [
       {
         "lang": "en",
-        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
-        "name": "The Colosseum"
+        "description": "The Leaning Tower of Pisa (Italian: torre pendente di Pisa) or simply the Tower of Pisa (torre di Pisa [ˈtorre di ˈpiːza; ˈpiːsa][1]) is the campanile, or freestanding bell tower, of the cathedral of the Italian city of Pisa, known worldwide for its nearly four-degree lean, the result of an unstable foundation. The tower is situated behind the Pisa Cathedral and is the third-oldest structure in the city's Cathedral Square (Piazza del Duomo), after the cathedral and the Pisa Baptistry.",
+        "name": "Leaning Tower of Pisa"
       },
       {
         "lang": "ru",
-        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
-        "name": "Колизей"
+        "description": "Пиза́нская башня (итал. Torre pendente di Pisa) — колокольная башня, часть ансамбля городского собора Санта-Мария-Ассунта (Пизанский собор) в городе Пиза, получившая всемирную известность благодаря непреднамеренному наклону. Расположенная позади собора, она является третьей старейшей постройкой на Площади чудес Пизы после самого собора и баптистерия. Наклон башни возник в ходе её строительства, длившегося несколько десятилетий и в последующее время медленно увеличивался, пока не был стабилизирован (и частично скорректирован) благодаря усилиям по укреплению в конце XX и начале XXI столетий.",
+        "name": "Пизанская башня"
       }
     ]
   },
@@ -51,17 +51,17 @@
     "countryId": {
       "$oid": "60270368f347c8267c02a528"
     },
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "photoUrl": "https://res-5.cloudinary.com/holiday-images/image/upload/q_auto:eco,f_auto,dpr_auto,w_1600,h_900,c_lfill,q_auto:eco,f_auto/v1593607181/sorrento_amalfi_coast/u4gqk2lc8lqw2w1ykuhl.jpg",
     "localizations": [
       {
         "lang": "en",
-        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
-        "name": "The Colosseum"
+        "description": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy, about 9 km (5.6 mi) east of Naples and a short distance from the shore. It is one of several volcanoes which form the Campanian volcanic arc. Vesuvius consists of a large cone partially encircled by the steep rim of a summit caldera caused by the collapse of an earlier and originally much higher structure.",
+        "name": "Mount Vesuvius"
       },
       {
         "lang": "ru",
-        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
-        "name": "Колизей"
+        "description": "Везу́вий (итал. Vesuvio) — действующий вулкан на юге Италии, примерно в 15 км от Неаполя. Расположен на берегу Неаполитанского залива в провинции Неаполь, регион Кампания. Входит в Апеннинскую горную систему, имеет высоту 1281 м.",
+        "name": "Везувий"
       }
     ]
   },
@@ -73,17 +73,17 @@
     "countryId": {
       "$oid": "60270368f347c8267c02a528"
     },
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "photoUrl": "https://incomartour.com.ua/mediafiles/images/%D0%BC%D0%BE%D1%81%D1%82-%D0%B2%D0%B7%D0%B4%D0%BE%D1%85%D0%BE%D0%B2.jpg",
     "localizations": [
       {
         "lang": "en",
-        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
-        "name": "The Colosseum"
+        "description": "The Bridge of Sighs (Italian: Ponte dei Sospiri, Venetian: Ponte de i Sospiri) is a bridge in Venice, Italy. The enclosed bridge is made of white limestone, has windows with stone bars, passes over the Rio di Palazzo, and connects the New Prison (Prigioni Nuove) to the interrogation rooms in the Doge's Palace. It was designed by Antonio Contino, whose uncle Antonio da Ponte designed the Rialto Bridge, and it was built in 1600.",
+        "name": "Bridge of Sighs"
       },
       {
         "lang": "ru",
-        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
-        "name": "Колизей"
+        "description": "Мост Вздохов (итал. Ponte dei Sospiri) — название одного из мостов в Венеции через Дворцовый канал — Рио ди Палаццо. Мост Вздохов был построен Антонио Конти в 1602 году и украшен в барочном стиле. Мост соединяет здание Дворца дожей, в котором располагался зал суда, и здание тюрьмы. «Вздохи», от которых берёт название этот мост — это не вздохи влюблённых, а печальные вздохи осуждённых, которые, проходя под стражей по этому крытому мосту, в последний раз бросали взгляд на Венецию.",
+        "name": "Мост Вздохов"
       }
     ]
   },
@@ -95,17 +95,17 @@
     "countryId": {
       "$oid": "60270368f347c8267c02a528"
     },
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "photoUrl": "https://sarovdesign.ru/wp-content/uploads/2017/12/ve1-1600x900.jpg",
     "localizations": [
       {
         "lang": "en",
-        "description": "The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).",
-        "name": "The Colosseum"
+        "description": "The Doge's Palace is a palace built in Venetian Gothic style, and one of the main landmarks of the city of Venice in northern Italy. The palace was the residence of the Doge of Venice, the supreme authority of the former Republic. It was built in 1340 and extended and modified in the following centuries. It became a museum in 1923 and is one of the 11 museums run by the Fondazione Musei Civici di Venezia.",
+        "name": "Doge's Palace"
       },
       {
         "lang": "ru",
-        "description": "Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.  Строительство самого большого амфитеатра античного мира, вместимостью свыше 50 тыс. человек, велось на протяжении восьми лет как коллективное сооружение императоров династии Флавиев. Его начали строить в 72 году н. э. при императоре Веспасиане, а в 80 году н. э. амфитеатр был освящён императором Титом. Амфитеатр расположился на том месте, где был пруд, относившийся к Золотому дому Нерона.",
-        "name": "Колизей"
+        "description": "Дворец до́жей (итал. Palazzo Ducale) в Венеции — великий памятник итальянской готической архитектуры, одна из главных достопримечательностей города. Находится на площади Святого Марка рядом с одноимённым собором. Хотя первое сооружение на этом месте стояло ещё в IX веке, строительство сегодняшнего здания было осуществлено между 1309 и 1424 годами предположительно архитектором был Филиппо Календарио.",
+        "name": "Дворец до́жей"
       }
     ]
   },

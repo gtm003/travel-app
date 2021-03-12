@@ -14,7 +14,11 @@ function App() {
   };
   
   const [country, setCountry] = useState(null);
-  const [indexLang, setIndexLang] = useState(0);
+  const [indexLang, setIndexLang] = useState(getIndexLang());
+
+  function getIndexLang() {
+    return localStorage.getItem('indexLang') ? localStorage.getItem('indexLang') : 0;
+  };
 
   function selectCountry(country) {
     setCountry(country);

@@ -22,7 +22,6 @@ function Logo(props) {
 }
 
 function Search(props) {
-  console.log(props.country);
   return (
     <Fragment>
       {!props.country && (
