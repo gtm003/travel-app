@@ -1,7 +1,29 @@
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 .gallery {
+  position: relative;
   padding: 1rem;
   margin: 1rem;
   width: 40vw;
+  //height: 30vw;
+  overflow-y: hidden;
+  & .caption {
+    //display: flex;
+    //justify-content: space-evenly;
+    //align-items: center;
+    line-clamp: 3;
+  }
+  & .moreButton {
+    border: 2px solid #212121;
+    color: #212121;
+    height: 40px;
+    width: 80px;
+    padding: 6px 12px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  & .description {
+    position: absolute;
+  }
 }
