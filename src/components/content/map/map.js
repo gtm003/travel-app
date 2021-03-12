@@ -56,29 +56,16 @@ export class Map extends React.Component {
     super(props);
     this.onScriptLoad = this.onScriptLoad.bind(this)
   }
-
+  
   onScriptLoad() {
     const map = new window.google.maps.Map(
       document.getElementById(this.props.id),
       this.props.options);
     this.props.onMapLoad(map)
   }
-
+  
   componentDidMount() {
-    if (!window.google) {
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly`;
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-      // Below is important. 
-      //We cannot access google.maps until it's finished loading
-      s.addEventListener('load', e => {
-        this.onScriptLoad()
-      })
-    } else {
-      this.onScriptLoad()
-    }
+    this.onScriptLoad();
   }
 
   render() {
