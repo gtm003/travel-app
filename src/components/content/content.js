@@ -22,10 +22,10 @@ export default function Content(props) {
       <Map id="Map"
         options={{
           center: { 
-            lat: props.country.capitalLocation.coordinates[1], 
-            lng: props.country.capitalLocation.coordinates[0] 
+            lat: props.country.center[1], 
+            lng: props.country.center[0] 
           },
-          zoom: 6
+          zoom: 5
         }}
         onMapLoad={map => {
           const marker = new window.google.maps.Marker({
