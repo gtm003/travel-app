@@ -10,7 +10,7 @@ import {Map} from './map/map';
 
 export default function Content(props) {
   //const {onToggleDefeat} = useContext(Context);
-  //console.log(country);
+  //console.log(props.country.capitalLocation.coordinates);
   //<Gallery country = {props.country} indexLang = {props.indexLang}/>
   return (
     <React.Fragment>
@@ -19,15 +19,20 @@ export default function Content(props) {
       <Description country = {props.country} indexLang = {props.indexLang}/>
       <GalleryNew country = {props.country} indexLang = {props.indexLang}/>
       <VideoPlayer country = {props.country}/>
-      <Map
-        id="myMap"
+      <Map id="Map"
         options={{
-          center: { lat: 41.902782, lng: 12.496365 },
-          zoom: 8
+          center: { 
+            lat: props.country.capitalLocation.coordinates[1], 
+            lng: props.country.capitalLocation.coordinates[0] 
+          },
+          zoom: 6
         }}
         onMapLoad={map => {
           const marker = new window.google.maps.Marker({
-            position: { lat: 41.902782, lng: 12.496365 },
+            position: {
+              lat: props.country.capitalLocation.coordinates[1], 
+              lng: props.country.capitalLocation.coordinates[0] 
+            },
             map: map,
             title: 'Rome'
           });
