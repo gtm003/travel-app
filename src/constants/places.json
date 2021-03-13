@@ -268,5 +268,140 @@
         "name": "Фрауэнкирхе"
       }
     ]
+  },
+  {
+    "country": "England",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://www.tapetymix.cz/uploads/images/product/Fototapeta_Krajina_-_Stonehenge_ANglicko_10140.jpg.large.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Stonehenge, 10 miles north of the historic city of Salisbury on Salisbury Plain, is Europe's best-known prehistoric monument. Exhibitions at the excellent Stonehenge visitor center set the stage for a visit, explaining through audio-visual experiences and more than 250 ancient objects how the megaliths were erected between 3000 and 1500 BC, and sharing information about life during this time.",
+        "name": "Stonehenge"
+      },
+      {
+        "lang": "ru",
+        "description": "Стоунхендж, расположенный в 10 милях к северу от исторического города Солсбери на равнине Солсбери, является самым известным доисторическим памятником Европы. Выставки в превосходном центре для посетителей Стоунхенджа подготовили почву для посещения, объясняя с помощью аудиовизуальных впечатлений и более 250 древних объектов, как были возведены мегалиты между 3000 и 1500 годами до нашей эры, и делясь информацией о жизни в то время.",
+        "name": "Стоунхендж"
+      },
+      {
+        "lang": "bel",
+        "description": "Стоўнхэндж, у 10 мілях на поўнач ад гістарычнага горада Солсберы на раўніне Солсберы, з'яўляецца самым вядомым дагістарычным помнікам Еўропы. Выставы ў выдатным цэнтры для наведвальнікаў Стоўнхэнджа падрыхтавалі аснову для наведвання, растлумачыўшы праз аўдыя-візуальны досвед і больш за 250 старажытных аб'ектаў, як былі ўзведзены мегаліты паміж 3000 і 1500 да н.э., і абменьваючыся інфармацыяй пра жыццё ў гэты час.",
+        "name": "Стоўнхэндж"
+      }
+    ]
+  },
+  {
+    "country": "England",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://rinto.life/img/201609/iStock-470668247.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Prison, palace, treasure vault, observatory, and menagerie: the Tower of London has done it all and it's one of the top attractions in London. Widely considered the most important building in England, there's enough to see and do at this World Heritage Site to keep visitors busy for hours.",
+        "name": "Tower of London"
+      },
+      {
+        "lang": "ru",
+        "description": "Тюрьма, дворец, сокровищница, обсерватория и зверинец: Лондонский Тауэр сделал все это, и это одна из главных достопримечательностей Лондона. Считается самым важным зданием в Англии, в этом объекте всемирного наследия есть что посмотреть и чем заняться, чтобы посетители были заняты часами.",
+        "name": "Башня Лондона"
+      },
+      {
+        "lang": "bel",
+        "description": "Турма, палац, сховішча скарбаў, абсерваторыя і звярынец: Лонданскі Тауэр усё зрабіў, і гэта адна з галоўных славутасцяў Лондана. Шырока лічыцца самым важным будынкам у Англіі, на гэтым аб'екце сусветнай спадчыны можна паглядзець і зрабіць, каб наведвальнікі былі заняты гадзінамі.",
+        "name": "Лонданская вежа"
+      }
+    ]
+  },
+  {
+    "country": "England",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://www.londontoolkit.com/blog/wp-content/uploads/2018/09/xnatural-history-museum.jpg.pagespeed.ic.rY69Oy7wT9.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "With collections of antiquities that are among the world's finest, the British Museum holds more than 13 million artifacts from Assyria, Babylonia, Egypt, Greece, the Roman Empire, China, and Europe. The most famous ancient artifacts are the Elgin Marbles from the Parthenon in Athens, as well as the famous Rosetta Stone.",
+        "name": "The British Museum"
+      },
+      {
+        "lang": "ru",
+        "description": "Британский музей с коллекциями древностей, которые являются одними из лучших в мире, хранит более 13 миллионов артефактов из Ассирии, Вавилонии, Египта, Греции, Римской империи, Китая и Европы. Самыми известными древними артефактами являются мрамор Элгин из Парфенона в Афинах, а также знаменитый Розеттский камень.",
+        "name": "Британский музей"
+      },
+      {
+        "lang": "bel",
+        "description": "Брытанскі музей з калекцыямі старажытнасцяў, якія з'яўляюцца аднымі з лепшых у свеце, захоўвае больш за 13 мільёнаў артэфактаў з Асірыі, Вавілоніі, Егіпта, Грэцыі, Рымскай імперыі, Кітая і Еўропы. Самымі вядомымі старажытнымі артэфактамі з'яўляюцца мармур Элгин з Парфенона ў Афінах, а таксама знакаміты Розеттский камень.",
+        "name": "Брытанскі музей"
+      }
+    ]
+  },
+  {
+    "country": "England",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "http://findecursocolegio.com/wp-content/uploads/2016/02/york.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The magnificent York Minster is second in importance in the Church of England only to the cathedral at Canterbury. It stands in the center of historic York, surrounded by half-timbered homes and shops, medieval guildhalls, and churches.",
+        "name": "York Minster and Historic Yorkshire"
+      },
+      {
+        "lang": "ru",
+        "description": "Великолепный Йоркский собор является вторым по значимости в англиканской церкви после собора в Кентербери. Он стоит в центре исторического Йорка, в окружении фахверковых домов и магазинов, средневековых ратушей гильдий и церквей.",
+        "name": "Йоркский собор и исторический Йоркшир"
+      },
+      {
+        "lang": "bel",
+        "description": "Цудоўны Ёркскі Мінстэр па значнасці ў Англіканскай Царкве займае другое месца пасля сабора ў Кентэрберы. Ён стаіць у цэнтры гістарычнага Ёрка, у атачэнні фахверкавых дамоў і крам, сярэднявечных гільдый і цэркваў.",
+        "name": "Ёркскі сабор і гістарычны Ёркшыр"
+      }
+    ]
+  },
+  {
+    "country": "England",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://travellan.ru/upload/News%20of%20Travel/Grimshaw-Architects-China-Eden5_900x600.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The incredible Eden Project is a collection of unique artificial biomes containing an amazing collection of plants from around the world. Located in a reclaimed quarry in Cornwall, this spectacular botanical gardens complex consists of huge domes that look rather like massive igloo-shaped greenhouses. Each of these impressive (and futuristic-looking) buildings houses thousands of different plant species in tropical and Mediterranean environments.",
+        "name": "Eden Project"
+      },
+      {
+        "lang": "ru",
+        "description": "Невероятный проект Eden Project - это коллекция уникальных искусственных биомов, содержащих удивительную коллекцию растений со всего мира. Этот впечатляющий комплекс ботанических садов, расположенный в отреставрированном карьере в Корнуолле, состоит из огромных куполов, которые больше похожи на массивные теплицы в форме иглу. В каждом из этих впечатляющих (и футуристических) зданий обитают тысячи различных видов растений в тропической и средиземноморской среде.",
+        "name": "Эдемский проект"
+      },
+      {
+        "lang": "bel",
+        "description": "Неверагодны праект Eden - гэта калекцыя унікальных штучных біямаў, якая змяшчае дзівосную калекцыю раслін з усяго свету. Размешчаны ў меліяраваным кар'еры ў Корнуоле, гэты ўражлівы батанічны сад складаецца з велізарных купалоў, якія выглядаюць хутчэй як масіўныя цяпліцы ў форме іглу. У кожным з гэтых уражлівых (і на футурыстычны выгляд) будынкаў размешчаны тысячы розных відаў раслін у трапічным і міжземнаморскім асяроддзі.",
+        "name": "Эдэмскі праект"
+      }
+    ]
   }
 ]
