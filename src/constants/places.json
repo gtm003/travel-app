@@ -808,5 +808,140 @@
         "name": "Чырвоны форт"
       }
     ]
+  },
+  {
+    "country": "Japan",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://arenda-car.ru/images/news-rental/japonija-gora-fudzi.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Without a doubt Japan's most recognizable landmark, majestic Mount Fuji (Fuji-san) is also the country's highest mountain peak. Towering 3,776 meters over an otherwise largely flat landscape to the south and east, this majestic and fabled mountain is tall enough to be seen from Tokyo, more than 100 kilometers away.",
+        "name": "Mount Fuji"
+      },
+      {
+        "lang": "ru",
+        "description": "Без сомнения, самая узнаваемая достопримечательность Японии, величественная гора Фудзи (Fuji-san), также является самой высокой горной вершиной страны. Эта величественная и легендарная гора возвышается на 3776 метров над равнинным ландшафтом к югу и востоку, достаточно высока, чтобы ее можно было увидеть из Токио, находящегося на расстоянии более 100 километров.",
+        "name": "Гора Фудзи"
+      },
+      {
+        "lang": "bel",
+        "description": "Несумненна, самая пазнавальная славутасць Японіі, велічная гара Фудзі (Фудзі-сан) таксама з'яўляецца самай высокай горнай вяршыняй краіны. Гэтая велічная і легендарная гара, узвышаецца 3776 метраў над інакш у асноўным роўным ландшафтам на поўдзень і ўсход, дастаткова высокая, каб яе можна было ўбачыць з Токіо, які знаходзіцца больш чым у 100 кіламетрах.",
+        "name": "Гара Фудзі"
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://ukroboi.com/image/catalog/new/02684.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Tokyo's most famous landmark, the Imperial Palace with its beautiful 17th-century parks surrounded by walls and moats, is a must-see when visiting the nation's capital. Don't be put off by the fact that the majority of the palace is closed to the public (it's still in use by the Imperial family), as there is still enough to see simply by strolling the grounds.",
+        "name": "Imperial Tokyo"
+      },
+      {
+        "lang": "ru",
+        "description": "Самая известная достопримечательность Токио, Императорский дворец с его красивыми парками 17-го века, окруженными стенами и рвами, является обязательным для посещения при посещении столицы страны. Не пугайтесь того факта, что большая часть дворца закрыта для публики (он все еще используется императорской семьей), так как его  можно увидеть, просто прогуливаясь по территории.",
+        "name": "Императорский Токио."
+      },
+      {
+        "lang": "bel",
+        "description": "Самая вядомая славутасць Токіо, Імператарскі палац, з прыгожымі паркамі 17-га стагоддзя, акружанымі сценамі і ровамі, неабходна наведаць пры наведванні сталіцы краіны. Няхай вас не бянтэжыць той факт, што большасць палаца закрыта для наведвання (ім па-ранейшаму карыстаецца сям'я Імператара), але гэтага я дастаткова, каб паглядзець, проста прагуляўшыся.",
+        "name": "Імператарскі Токіо."
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://designtellers.it/wp-content/uploads/2020/03/Memoria_05.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "While little needs to be said here of the horrors of the atomic bombing of Hiroshima in August 1945, much can be said of the incredible efforts this vibrant city has made to commemorate the many victims of the world's first nuclear attack. Perhaps even more importantly, Hiroshima has become a symbol of lasting peace.",
+        "name": "Hiroshima Peace Memorial Park"
+      },
+      {
+        "lang": "ru",
+        "description": "Хотя здесь мало что нужно сказать об ужасах атомной бомбардировки Хиросимы в августе 1945 года, многое можно сказать о невероятных усилиях, предпринятых этим ярким городом, чтобы почтить память многих жертв первой в мире ядерной атаки. Возможно, что еще более важно, Хиросима стала символом прочного мира.",
+        "name": "Мемориальный парк мира в Хиросиме"
+      },
+      {
+        "lang": "bel",
+        "description": "Хоць тут мала што трэба сказаць пра жахі атамнай бамбардзіроўкі Хірасімы ў жніўні 1945 г., шмат можна сказаць пра неверагодныя намаганні, якія гэты ажыўлены горад прыклаў да памяці шматлікіх ахвяр першай ядзернай атакі ў свеце. Магчыма, што яшчэ больш важна, Хірасіма стала сімвалам трывалага міру.",
+        "name": "Мемарыяльны парк міру у Хірасіме"
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://www.executivegrapevine.com/uploads/articles/korn-ferry-top-asia.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "One of Japan's most visited cities, lovely Kyoto - one of the few cities in the country to be spared the devastation of WWII - attracts more than 10 million visitors annually. Most of them are here to explore Kyoto's fine old streets and architecture, much of it unchanged since the Imperial family took up residence here more than 1,000 years ago.",
+        "name": "Historic Kyoto"
+      },
+      {
+        "lang": "ru",
+        "description": "Один из самых посещаемых городов Японии, прекрасный Киото - один из немногих городов страны, который избежал разрушений Второй мировой войны - ежегодно привлекает более 10 миллионов посетителей. Большинство из них здесь, чтобы исследовать прекрасные старые улицы и архитектуру Киото, большая часть которой не изменилась с тех пор, как Императорская семья поселилась здесь более 1000 лет назад.",
+        "name": "Исторический Киото"
+      },
+      {
+        "lang": "bel",
+        "description": "Адзін з самых наведвальных гарадоў Японіі, цудоўны Кіёта - адзін з нешматлікіх гарадоў краіны, які пазбавіўся разбурэнняў Другой сусветнай вайны - штогод прыцягвае больш за 10 мільёнаў наведвальнікаў. Большасць з іх тут, каб даследаваць выдатныя старыя вуліцы і архітэктуру Кіёта, большая частка якіх засталася нязменнай, бо Імператарская сям'я пражывала тут больш за 1000 гадоў таму.",
+        "name": "Гістарычны Кіёта"
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://wondertrip.jp/wp-content/uploads/2016/07/85cb9b36ed7ecc67372654cd4677fec4.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Just a short ferry ride from mainland Hiroshima is the island of Miyajima, famous the world over as Japan's Shrine Island. Covering an area of 30 square kilometers in Hiroshima Bay, Miyajima is best known as the home of the Itsukushima Shrine, a Shinto temple dedicated to the Princess daughters of the wind god Susanoo.",
+        "name": "The Island Shrine of Itsukushima"
+      },
+      {
+        "lang": "ru",
+        "description": "Всего в нескольких минутах езды на пароме от материковой части Хиросимы находится остров Миядзима, известный во всем мире как Японский остров святынь. Миядзима, занимающий площадь в 30 квадратных километров в заливе Хиросима, наиболее известен как дом для святилища Ицукусима, синтоистского храма, посвященного дочери принцессы бога ветра Сусаноо.",
+        "name": "Островной храм Ицукусима"
+      },
+      {
+        "lang": "bel",
+        "description": "Усяго ў некалькіх хвілінах язды на пароме ад кантынентальнай Хірасімы знаходзіцца востраў Міяджыма, вядомы ва ўсім свеце як востраў Святынь Японіі. На плошчы 30 квадратных кіламетраў у заліве Хірасіма Міяджыма найбольш вядомы як дом святыні Іцукусіма, сінтаісцкага храма, прысвечанага дачкам прынцэсы бога ветру Сусану.",
+        "name": "Астраўная святыня Іцукусіма"
+      }
+    ]
   }
 ]
