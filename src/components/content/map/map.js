@@ -1,7 +1,9 @@
 import React from "react";
 import { compose, withProps } from "recompose";
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps";
-import styles from './map.module.scss';
+import styles from "./map.module.scss";
+import coordinatesOfBorder from "../../../constants/coordinatesOfBorder.json";
+
 /*
 const MyMapComponent = compose(
   withProps({
@@ -56,12 +58,31 @@ export class Map extends React.Component {
     super(props);
     this.onScriptLoad = this.onScriptLoad.bind(this)
   }
-  
+
   onScriptLoad() {
     const map = new window.google.maps.Map(
       document.getElementById(this.props.id),
       this.props.options);
-    this.props.onMapLoad(map)
+    this.props.onMapLoad(map);
+    console.log(coordinatesOfBorder[this.props.country]);
+    if (coordinatesOfBorder[this.props.country]) {
+      const coordinateArr = coordinatesOfBorder[this.props.country];
+      coordinateArr.forEach(item => {
+        const singlePoligonCoordinate = item.split(' ').map(item => item.split(','));
+        const coordinateObj = singlePoligonCoordinate.map(item => item = {lat: Number(item[1]), lng: Number(item[0])});
+        const coordinateObjTest1 = coordinateObj.filter(item => !isNaN(item.lng));
+        const coordinateObjTest2 = coordinateObjTest1.filter(item => !isNaN(item.lat));
+        const border = new window.google.maps.Polygon({
+          paths: coordinateObjTest2,
+          strokeColor: "#00FF00",
+          strokeOpacity: 0.8,
+          strokeWeight: 3,
+          fillColor: "#00FF00",
+          fillOpacity: 0.35,
+        });
+        border.setMap(map);
+      })
+    }
   }
   
   componentDidMount() {

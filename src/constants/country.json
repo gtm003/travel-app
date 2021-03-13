@@ -3,6 +3,10 @@
     "_id": {
       "$oid": "60270368f347c8267c02a528"
     },
+    "center": [
+      12.83333,
+      42.83333
+    ],
     "capitalLocation": {
       "coordinates": [
         12.496365,
@@ -39,6 +43,10 @@
     "_id": {
       "$oid": "60270368f347c8267c02a528"
     },
+    "center": [
+      10.5,
+      51.5
+    ],
     "capitalLocation": {
       "coordinates": [
         13.4105300,
@@ -75,6 +83,10 @@
     "_id": {
       "$oid": "60270368f347c8267c02a528"
     },
+    "center": [
+      -2.69531,
+      54.75844
+    ],
     "capitalLocation": {
       "coordinates": [
         -0.1257400,
@@ -111,6 +123,10 @@
     "_id": {
       "$oid": "60270368f347c8267c02a528"
     },
+    "center": [
+      -98.5,
+      39.76
+    ],
     "capitalLocation": {
       "coordinates": [
         -77.0363700,
@@ -147,6 +163,10 @@
     "_id": {
       "$oid": "60270368f347c8267c02a528"
     },
+    "center": [
+      -55.0,
+      -10.0
+    ],
     "capitalLocation": {
       "coordinates": [
         -44.4333300,
@@ -183,10 +203,14 @@
     "_id": {
       "$oid": "60270368f347c8267c02a528"
     },
+    "center": [
+      77.0,
+      20.0
+    ],
     "capitalLocation": {
       "coordinates": [
-        12.496365,
-        41.902782
+        77.22897,
+        28.65381
       ],
       "type": "Point"
     },
@@ -219,6 +243,10 @@
     "_id": {
       "$oid": "60270368f347c8267c02a528"
     },
+    "center": [
+      139.75309,
+      35.68536
+    ],
     "capitalLocation": {
       "coordinates": [
         139.6917100,
@@ -255,10 +283,14 @@
     "_id": {
       "$oid": "60270368f347c8267c02a528"
     },
+    "center": [
+      8.01427,
+      47.00016
+    ],
     "capitalLocation": {
       "coordinates": [
-        12.496365,
-        41.902782
+        7.44744,
+        46.94809
       ],
       "type": "Point"
     },
@@ -271,7 +303,7 @@
         "lang": "en",
         "capital": "Bern",
         "description": "Switzerland, federated country of central Europe. Switzerland’s administrative capital is Bern, while Lausanne serves as its judicial centre. Switzerland’s small size—its total area is about half that of Scotland—and its modest population give little indication of its international significance.A landlocked country of towering mountains, deep Alpine lakes, grassy valleys dotted with neat farms and small villages, and thriving cities that blend the old and the new, Switzerland is the nexus of the diverse physical and cultural geography of western Europe, renowned for both its natural beauty and its way of life. Aspects of both have become bywords for the country, whose very name conjures images of the glacier-carved Alps beloved of writers, artists, photographers, and outdoor sports enthusiasts from around the world.",
-        "name": "Switzerland "
+        "name": "Switzerland"
       },
       {
         "lang": "ru",
