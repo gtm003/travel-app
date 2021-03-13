@@ -673,5 +673,140 @@
         "name": "Пелоуриньо Сальвадора"
       }
     ]
+  },
+  {
+    "country": "India",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://img.tourister.ru/files/1/4/3/6/8/7/2/5/clones/900_900_fixed.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Perhaps India's most recognizable building, the Taj Mahal is also the world's most famous testimony to the power of love. Named after Mumtaz Mahal, the favorite wife of Emperor Shah Jahan, this most beautiful of mausoleums was begun upon her death in 1631 and took 20,000 workmen until 1648 to complete.",
+        "name": "The Taj Mahal"
+      },
+      {
+        "lang": "ru",
+        "description": "Тадж-Махал, пожалуй, самое узнаваемое здание Индии, также является самым известным в мире свидетельством силы любви. Названный в честь Мумтаз Махал, любимой жены императора Шаха Джахана, этот самый красивый из мавзолеев был построен после ее смерти в 1631 году, и до 1648 года для его завершения потребовалось 20 000 рабочих.",
+        "name": "Тадж-Махал"
+      },
+      {
+        "lang": "bel",
+        "description": "Магчыма, самае пазнавальнае будынак Індыі, Тадж-Махал таксама з'яўляецца самым вядомым сведчаннем сілы кахання ў свеце. Названы ў гонар Мумтаза Махала, улюбёнай жонкі імператара Шаха Джахана, гэты найпрыгажэйшы з маўзалеяў быў заснаваны пасля яе смерці ў 1631 годзе і займаў 20 000 рабочых да 1648 года.",
+        "name": "Тадж-Махал"
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://law.asia/wp-content/uploads/2017/12/India-top-lawyers-A-List.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "A major pilgrimage center for Hindus, the holy city of Varanasi has long been associated with the mighty Ganges River, one of the faith's most important religious symbols. Dating back to the 8th century BC, Varanasi is one of the oldest still inhabited cities in the world.",
+        "name": "The Holy City of Varanasi"
+      },
+      {
+        "lang": "ru",
+        "description": "Главный центр паломничества индуистов, священный город Варанаси долгое время ассоциировался с могучей рекой Ганг, одним из важнейших религиозных символов веры. Варанаси, построенный в 8 веке до нашей эры, является одним из старейших населенных городов мира.",
+        "name": "Священный город Варанаси"
+      },
+      {
+        "lang": "bel",
+        "description": "Галоўны паломніцкі цэнтр індуістаў, святы горад Варанасі, доўгі час быў звязаны з магутнай ракой Ганг, адным з найважнейшых рэлігійных сімвалаў веры. Варанасі, пачынаючы з 8 стагоддзя да нашай эры, з'яўляецца адным з самых старажытных да гэтага часу населеных гарадоў свету.",
+        "name": "Святы горад Варанасі"
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://i1.wp.com/booktravel.com.ua/wp-content/uploads/2016/01/0_15bdbd_898aedbf_XXL.jpg?resize=900%2C600",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Founded in 1577 by Ram Das, Amritsar is an important hub of Sikh history and culture. The main attraction here is Harmandir Sahib, opened in 1604 and still often referred to as the Golden Temple for its beautiful gold decoration. The holiest of India's many Sikh shrines the temple was built in a blend of Hindu and Islamic styles, its lower marble section featuring such flourishes as ornate inlaid floral and animal motifs, while the large golden dome represents a lotus flower, a symbol of purity to Sikhs.",
+        "name": "Harmandir Sahib: The Golden Temple of Amritsar"
+      },
+      {
+        "lang": "ru",
+        "description": "Основанный в 1577 году Рамом Дасом, Амритсар является важным центром истории и культуры сикхов. Главной достопримечательностью здесь является Хармандир Сахиб, открытый в 1604 году и до сих пор называемый Золотым храмом из-за его красивого золотого убранства. Самая священная из многих сикхских святынь Индии, храм был построен в сочетании индуистского и исламского стилей, его нижняя мраморная часть украшена такими рюшами, как декоративная инкрустация цветочными и животными мотивами, а большой золотой купол представляет собой цветок лотоса, символ чистоты Сикхи.",
+        "name": "Хармандир Сахиб: Золотой Храм Амритсара"
+      },
+      {
+        "lang": "bel",
+        "description": "Заснаваны ў 1577 г. Рамам Дасам, Амрытсар з'яўляецца важным цэнтрам гісторыі і культуры сікхаў. Галоўнай славутасцю тут з'яўляецца Хармандыр Сахіб, адкрыты ў 1604 г. і да гэтага часу часта называюць Залатым храмам за яго прыгожае залатое ўпрыгожванне. Самая святая з шматлікіх святынь сікхаў у Індыі храм быў пабудаваны ў спалучэнні індуісцкага і ісламскага стыляў, яго ніжні мармуровы раздзел мае такія росквіты, як багатыя інкруставаныя кветкавыя і жывёльныя матывы, а вялікі залаты купал уяўляе кветку лотаса, сімвал чысціні Сікхі.",
+        "name": "Хармандыр Сахіб: Залаты храм Амрытсара"
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://www.indiatravel.com/wp-content/uploads/2017/10/001.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "So named for the yellow sandstone used in most of its buildings, the Golden City of Jaisalmer is an oasis of splendid old architecture that rises from the sand dunes of the Thar Desert. Once a strategic outpost, today the city is filled with splendid old mansions, magnificent gateways, and the massive Jaisalmer Fort-also known as the Golden Fort-a daunting 12th-century structure that rises high above the town.",
+        "name": "The Golden City: Jaisalmer"
+      },
+      {
+        "lang": "ru",
+        "description": "Золотой город Джайсалмер назван так из-за желтого песчаника, который используется в большинстве зданий. Это оазис великолепной старинной архитектуры, возвышающийся над песчаными дюнами пустыни Тар. Когда-то стратегический форпост, сегодня город наполнен великолепными старинными особняками, великолепными воротами и массивным фортом Джайсалмер, также известным как Золотой форт - устрашающим сооружением XII века, возвышающимся над городом.",
+        "name": "Золотой город: Джайсалмер"
+      },
+      {
+        "lang": "bel",
+        "description": "Так названы жоўты пяшчанік, які выкарыстоўваецца ў большасці яго будынкаў, \"Залаты горад Джайсалмер\" - гэта аазіс цудоўнай старадаўняй архітэктуры, які ўзвышаецца з пяшчаных выдмаў пустыні Тар. Калісьці стратэгічны фарпост, сёння горад запоўнены цудоўнымі старадаўнімі асабнякамі, цудоўнымі варотамі і масіўным фортам Джайсалмер - таксама вядомым як Залаты форт - страшная структура 12 стагоддзя, якая ўзвышаецца над горадам.",
+        "name": "Залаты горад: Джайсалмер"
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://cdn.puzzlegarage.com/img/puzzle/b/651_thumb_r.v5.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Built by Shah Jahan in 1648 as the seat of Mughal power-a role it maintained until 1857-the magnificent crescent-shaped Red Fort in New Delhi, named after the stunning red sandstone used in its construction, covers a vast area of more than two square kilometers, all of it surrounded by a large moat. Highlights include its two largest gates: the impressive Lahore Gate (the fort's main entrance) and the elaborately decorated Delhi Gate, once used by the emperor for ceremonial processions.",
+        "name": "The Red Fort"
+      },
+      {
+        "lang": "ru",
+        "description": "Построенный Шахом Джаханом в 1648 году в качестве резиденции моголов - роль, которую он сохранял до 1857 года - великолепный Красный форт в форме полумесяца в Нью-Дели, названный в честь потрясающего красного песчаника, использованного при его строительстве, занимает обширную территорию площадью более двух квадратных километров, все это окружено большим рвом. Основные моменты включают в себя два самых больших ворот: впечатляющие ворота Лахора (главный вход в форт) и тщательно украшенные ворота Дели, которые когда-то использовались императором для церемониальных процессий.",
+        "name": "Красный форт"
+      },
+      {
+        "lang": "bel",
+        "description": "Пабудаваны Шах Джаханам у 1648 годзе як месца магутнасці Маголаў - роля, якую ён захоўваў да 1857 года - цудоўны Чырвоны форт у форме паўмесяца ў Нью-Дэлі, названы ў гонар узрушаючага чырвонага пяшчаніку, які выкарыстоўваўся пры яго будаўніцтве, займае вялікую плошчу больш за два квадратныя кіламетры, усё гэта акружана вялікім ровам. Асноўныя моманты ўключаюць два самыя вялікія вароты: уражлівыя Лахорскія вароты (галоўны ўваход у форт) і складана аздобленыя Дэліскія вароты, якія калісьці выкарыстоўваліся імператарам для ўрачыстых працэсій.",
+        "name": "Чырвоны форт"
+      }
+    ]
   }
 ]
