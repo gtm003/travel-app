@@ -538,5 +538,140 @@
         "name": "Сусветны курорт Уолта Дыснея"
       }
     ]
+  },
+  {
+    "country": "Brazil",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://avatars.mds.yandex.net/get-zen_doc/3342202/pub_5ec0221107fc79033f5358ae_5ec024f407fc79033f5358e9/scale_2400",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "With arms outstretched 28 meters, as if to encompass all of humanity, the colossal Art Deco statue of Christ, called Cristo Redentor (Christ the Redeemer), gazes out over Rio de Janeiro and the bay from the summit of Corcovado.",
+        "name": "Cristo Redentor and Corcovado, Rio de Janeiro"
+      },
+      {
+        "lang": "ru",
+        "description": "С вытянутыми руками на 28 метров, как если бы охватывала все человечество, колоссальная статуя Христа в стиле ар-деко, названная Cristo Redentor (Христос-Искупитель), смотрит на Рио-де-Жанейро и залив с вершины Корковадо.",
+        "name": "Статуя Христа-Искупителя"
+      },
+      {
+        "lang": "bel",
+        "description": "З выцягнутымі ў 28 метраў рукамі, быццам бы ахоплівае ўсё чалавецтва, каласальная статуя Хрыста ў стылі арт-дэко, якую называюць Крыста Рэдэнтар (Хрыстос Адкупіцель), глядзіць на Рыа-дэ-Жанейра і заліў з вяршыні Каркавада.",
+        "name": "Статуя Хрыста-Збавіцеля"
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://www.guidebooktolife.com/admin-images/project-images/505844453.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The easily recognized emblem of Rio de Janeiro, the rounded rock peak of Sugar Loaf juts out of a tree-covered promontory, rising 394 meters above the beaches and city. Its summit is one of the first places to visit for tourists, for views of Rio and the harbor, and for the thrill of riding suspended in a cable car between Sugar Loaf and the Morro da Urca, a lower peak from which a second cableway connects to the city.",
+        "name": "Sugar Loaf"
+      },
+      {
+        "lang": "ru",
+        "description": "Легко узнаваемая эмблема Рио-де-Жанейро, округлая скала Сахарная голова выступает из покрытого деревьями мыса, возвышаясь на 394 метра над пляжами и городом. Его вершина - одно из первых мест, которое стоит посетить для туристов, чтобы полюбоваться видами Рио и гавани, а также испытать острые ощущения от езды на канатной дороге между Сахарной Головой и Морро-да-Урка, более низкой вершиной, с которой соединяется вторая канатная дорога в город.",
+        "name": "Пан-ди-Асукар"
+      },
+      {
+        "lang": "bel",
+        "description": "Лёгка пазнавальная эмблема Рыа-дэ-Жанейра, круглявая скальная вяршыня Цукровага каравая, выступае з пакрытага дрэвамі мыса, узвышаючыся на 394 метры над пляжамі і горадам. Яго вяршыня - адно з першых месцаў для наведвання турыстаў, відаў Рыа і гавані, а таксама вострых адчуванняў ад катання на фунікулёры паміж Цукровым караваем і Мора-да-Урка, ніжняй вяршыняй, з якой злучаецца другая канатная дарога. у горад.",
+        "name": "Пан-ды-Асукар"
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://discovery-russia.ru/photo-country/big/argentina_by_Mike.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "At the point where Brazil, Paraguay, and Argentina meet, the Iguaçu river drops spectacularly in a semicircle of 247 waterfalls that thunder down into the gorge below. Just above the falls, the river is constricted to one-fourth of its usual width, making the force of the water even stronger.",
+        "name": "Iguaçu Falls"
+      },
+      {
+        "lang": "ru",
+        "description": "В том месте, где встречаются Бразилия, Парагвай и Аргентина, река Игуасу эффектно обрывается полукругом из 247 водопадов, которые с громом ниспадают в ущелье внизу. Прямо над водопадом река сужена до одной четвертой своей обычной ширины, что усиливает силу воды.",
+        "name": "Водопады Игуасу"
+      },
+      {
+        "lang": "bel",
+        "description": "У месцы злучэння Бразіліі, Парагвая і Аргенціны рака Ігуасу ўражліва апускаецца паўколам з 247 вадаспадаў, якія грымяць у цясніну ўнізе. Крыху вышэй вадаспаду рака сціскаецца на адну чвэрць звычайнай шырыні, што робіць сілу вады яшчэ мацнейшай.",
+        "name": "Вадапады Ігуасу"
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_galleries/72247/900x600-1-50-2a982a0605cd85c03af22267c6ee004f.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Downtown Rio's most fashionable and famous section follows Avenida Nossa Senhora de Copacabana and is bordered all along one side by four kilometers of white sand and breaking surf. The beach is separated from the buildings and traffic by a broad promenade paved in black and white mosaic in an undulating pattern reminiscent of streets in Lisbon, Portugal.",
+        "name": "Copacabana"
+      },
+      {
+        "lang": "ru",
+        "description": "Самый модный и известный район центра Рио следует за Авенида Носса-Сеньора-де-Копакабана и граничит с одной стороны c четырьмя километрами белого песка и серфингом. Пляж отделен от зданий и движения широкой набережной, вымощенной черно-белой мозаикой с волнистым рисунком, напоминающим улицы Лиссабона, Португалия.",
+        "name": "Копакабана"
+      },
+      {
+        "lang": "bel",
+        "description": "Самы модны і вядомы раён у цэнтры Рыа ідзе па праспекце Носа-Сеньора-дэ-Копакабана і па ўсім баку аблямоўвае чатыры кіламетры белага пяску і разбіваючагася прыбою. Пляж аддзелены ад будынкаў і руху шырокай набярэжнай, выкладзенай чорна-белай мазаікай хвалістым малюнкам, які нагадвае вуліцы ў Лісабоне, Партугалія.",
+        "name": "Копакабана"
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://aloalobahia.com/images/p/pelourinhofestivalcon_alo_alo_bahia.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The Cidade Alta (Upper Town) of Brazil's former colonial capital has been named a UNESCO World Heritage site for its exceptional collection of 17th- and 18th-century colonial buildings, the finest such ensemble in South America.",
+        "name": "Salvador's Pelourinho"
+      },
+      {
+        "lang": "ru",
+        "description": "Сидаде-Альта (Верхний город) бывшей колониальной столицы Бразилии был внесен в список Всемирного наследия ЮНЕСКО за его исключительную коллекцию колониальных зданий 17-18 веков, лучший ансамбль такого рода в Южной Америке.",
+        "name": "Пелоуриньо Сальвадора"
+      },
+      {
+        "lang": "bel",
+        "description": "Cidade Alta (Верхні горад) былой каланіяльнай сталіцы Бразіліі быў названы аб'ектам Сусветнай спадчыны ЮНЕСКА за выключную калекцыю каланіяльных будынкаў 17 і 18 стагоддзяў, найлепшага такога ансамбля ў Паўднёвай Амерыцы.",
+        "name": "Пелоуриньо Сальвадора"
+      }
+    ]
   }
 ]
