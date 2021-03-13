@@ -20,14 +20,14 @@ export default function Content(props) {
       <GalleryNew country = {props.country} indexLang = {props.indexLang}/>
       <VideoPlayer country = {props.country}/>
       <Map id="Map"
-        options={{
+        options = {{
           center: { 
             lat: props.country.center[1], 
             lng: props.country.center[0] 
           },
           zoom: 5
         }}
-        onMapLoad={map => {
+        onMapLoad = {map => {
           const marker = new window.google.maps.Marker({
             position: {
               lat: props.country.capitalLocation.coordinates[1], 
@@ -37,6 +37,7 @@ export default function Content(props) {
             title: 'Rome'
           });
         }}
+        country = {props.country.localizations[0].name}
       />
     </div>)}
 
