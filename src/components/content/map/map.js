@@ -65,18 +65,21 @@ export class Map extends React.Component {
       this.props.options);
     this.props.onMapLoad(map);
     if (coordinatesOfBorder[this.props.country]) {
-      const coordinateArr = coordinatesOfBorder[this.props.country].split(' ').map(item => item.split(','));
-      const coordinateObj = coordinateArr.map(item => item = {lat: Number(item[1]), lng: Number(item[0])});
-      const coordinateObjTest = coordinateObj.filter(item => !isNaN(item.lng));
-      const border = new window.google.maps.Polygon({
-        paths: coordinateObjTest,
-        strokeColor: "#00FF00",
-        strokeOpacity: 0.8,
-        strokeWeight: 3,
-        fillColor: "#00FF00",
-        fillOpacity: 0.35,
-      });
-      border.setMap(map);
+      const coordinateArr = coordinatesOfBorder[this.props.country];
+      coordinateArr.forEach(item => {
+        const singlePoligonCoordinate = item.split(' ').map(item => item.split(','));
+        const coordinateObj = singlePoligonCoordinate.map(item => item = {lat: Number(item[1]), lng: Number(item[0])});
+        const coordinateObjTest = coordinateObj.filter(item => !isNaN(item.lng));
+        const border = new window.google.maps.Polygon({
+          paths: coordinateObjTest,
+          strokeColor: "#00FF00",
+          strokeOpacity: 0.8,
+          strokeWeight: 3,
+          fillColor: "#00FF00",
+          fillOpacity: 0.35,
+        });
+        border.setMap(map);
+      })
     }
   }
   
