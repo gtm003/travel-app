@@ -943,5 +943,140 @@
         "name": "Астраўная святыня Іцукусіма"
       }
     ]
+  },
+  {
+    "country": "Switzerland",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://drscdn.500px.org/photo/105625329/m%3D900/015cad14da703acb3cf1d5a04f7936a3",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "The Matterhorn, Switzerland's iconic pointed peak is one of the highest mountains in the Alps. On the border with Italy, this legendary peak rises to 4,478 meters, and its four steep faces lie in the direction of the compass points. The first summiting in 1865 ended tragically when four climbers fell to their death during the descent. Today, thousands of experienced climbers come here each summer.",
+        "name": "The Matterhorn"
+      },
+      {
+        "lang": "ru",
+        "description": "Маттерхорн, культовая остроконечная вершина Швейцарии, одна из самых высоких гор в Альпах. На границе с Италией этот легендарный пик поднимается на высоту 4478 метров, а его четыре крутых фасада лежат в направлении стрелок компаса. Первое восхождение на вершину в 1865 году закончилось трагически, когда четыре альпиниста разбились насмерть во время спуска. Сегодня каждое лето сюда приезжают тысячи опытных альпинистов.",
+        "name": "Маттерхорн"
+      },
+      {
+        "lang": "bel",
+        "description": "Матэрхорн, знакавая завостраная вяршыня Швейцарыі, з'яўляецца адной з самых высокіх гор у Альпах. На мяжы з Італіяй гэты легендарны пік узвышаецца да 4478 метраў, а чатыры яго стромкія грані ляжаць у напрамку кропак компаса. Першы саміт у 1865 г. скончыўся трагічна, калі падчас спуску чатыры альпіністы загінулі. Сёння кожнае лета сюды прыязджаюць тысячы дасведчаных альпіністаў.",
+        "name": "Матэргорн"
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_galleries/104/900x600-1-50-2185f190d5c887619ffd535a945e8d92.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "One of the most popular things to do in the beautiful Bernese Oberland is the train journey to Jungfraujoch, the \"Top of Europe,\" with an observation terrace and scientific observatory perched at 3,454 meters. The longest glacier in Europe, the Great Aletsch Glacier begins at Jungfraujoch, and is a UNESCO World Heritage Site. The famous Eiger Trail from the Eiger glacier station to Alpiglen clings to the rocks at the foot of the north face.",
+        "name": "Jungfraujoch: The Top of Europe"
+      },
+      {
+        "lang": "ru",
+        "description": "Одно из самых популярных развлечений в прекрасном Бернском Оберланде - поездка на поезде до Юнгфрауйоха, «вершины Европы», со смотровой площадкой и научной обсерваторией, расположенной на высоте 3454 метра. Самый длинный ледник в Европе, Большой ледник Алеч начинается в Юнгфрауйохе и является объектом Всемирного наследия ЮНЕСКО. Знаменитая тропа Эйгера от ледниковой станции Эйгер до Альпиглена цепляется за скалы у подножия северной стены.",
+        "name": "Юнгфрауйох: вершина Европы"
+      },
+      {
+        "lang": "bel",
+        "description": "Адным з самых папулярных заняткаў у цудоўным бернскім Оберландзе з'яўляецца падарожжа на цягніку да Юнгфрауёха, \"Вяршыні Еўропы\", з агляднай тэрасай і навуковай абсерваторыяй на вышыні 3454 метра. Самы працяглы ледавік у Еўропе, Вялікі Алецкі ледавік, пачынаецца ў Юнгфрауёху і ўваходзіць у спіс сусветнай спадчыны ЮНЕСКА. Знакамітая Эйгерава сцежка ад ледавіковай станцыі Эйгер да Альпіглена чапляецца за скалы ля падножжа паўночнай грані.",
+        "name": "Юнгфрауёх: вяршыня Еўропы"
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://www.holiday.by/files/tours/thumbnails/tours_gallery_fullsize/562f0cf60f85a8cf3947728553e18c01.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Imagine a sparkling blue lake surrounded by mountains, a car-free medieval old town, covered bridges, waterfront promenades, frescoed historic buildings, and sun-splashed plazas with bubbling fountains. No wonder Lucerne (in German, Luzern) is a top spot for tourists. Famed for its music concerts, this quintessential Swiss town lures renowned soloists, conductors, and orchestras to its annual International Music Festival. The Culture and Convention Center is home to one of the world's leading concert halls.",
+        "name": "Lucerne"
+      },
+      {
+        "lang": "ru",
+        "description": "Представьте себе сверкающее голубое озеро, окруженное горами, средневековый старый город, свободный от автомобилей, крытые мосты, набережные, исторические здания, украшенные фресками, и залитые солнцем площади с бурлящими фонтанами. Неудивительно, что Люцерн (по-немецки Люцерн) - излюбленное место туристов. Этот типичный швейцарский город, известный своими музыкальными концертами, привлекает на свой ежегодный Международный музыкальный фестиваль известных солистов, дирижеров и оркестры. В Центре культуры и конгрессов находится один из ведущих концертных залов мира.",
+        "name": "Люцерн"
+      },
+      {
+        "lang": "bel",
+        "description": "Уявіце сабе іскрыстае блакітнае возера, акружанае гарамі, сярэднявечны старажытны горад без аўтамабіляў, крытыя масты, набярэжныя, набярэжныя, роспісы гістарычных будынкаў і закрапаваныя сонцам пляцы з бурлівымі фантанамі. Нездарма Люцэрн (па-нямецку, Люцэрн) - галоўнае месца для турыстаў. Вядомы сваімі музычнымі канцэртамі, гэты квінтэсэнцыйны швейцарскі горад вабіць вядомых салістаў, дырыжораў і аркестры на штогадовы Міжнародны музычны фестываль. У Цэнтры культуры і канферэнцый знаходзіцца адна з вядучых канцэртных залаў свету.",
+        "name": "Люцэрна"
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://en.arenda-car.ru/upload/medialibrary/ba9/shvejtsaria3.jpg",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "On the shores of Lake Geneva, near Montreux, the Chateau de Chillon (Chillon Castle) has inspired artists and writers for centuries. Lord Byron, Jean Jacques Rousseau, and Victor Hugo are among the luminaries who have written about this architectural treasure.",
+        "name": "Chateau de Chillon"
+      },
+      {
+        "lang": "ru",
+        "description": "На берегу Женевского озера, недалеко от Монтрё, Шильонский замок (Шильонский замок) веками вдохновлял художников и писателей. Лорд Байрон, Жан Жак Руссо и Виктор Гюго - одни из тех, кто писал об этом архитектурном сокровище.",
+        "name": "Шато де Шильон"
+      },
+      {
+        "lang": "bel",
+        "description": "На беразе Жэнеўскага возера, недалёка ад Монтрё, Замак Шыён (замак Шыён) на працягу стагоддзяў натхняў мастакоў і пісьменнікаў. Лорд Байран, Жан Жак Русо і Віктар Гюго - сярод свяцілаў, якія напісалі пра гэты архітэктурны скарб.",
+        "name": "Замак Шыён"
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "_id": {
+      "$oid": "602bff023a9035161acb001c"
+    },
+    "countryId": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "photoUrl": "https://www.cntravellerme.com/public/styles/full_img/public/images/2019/09/08/destination-proposals-5.jpg?itok=XiEEqehW",
+    "localizations": [
+      {
+        "lang": "en",
+        "description": "Mirror-like lakes, glaciers, jagged peaks, alpine forests, and oodles of sunshine make St. Moritz one of the world's top mountain destinations and a must-have on your list of things to do in Switzerland. Palatial hotels and pricey restaurants are par for the course at this chic resort town, which has hosted two winter Olympics.",
+        "name": "St. Moritz"
+      },
+      {
+        "lang": "ru",
+        "description": "Зеркальные озера, ледники, зубчатые вершины, альпийские леса и множество солнечных лучей делают Санкт-Мориц одним из лучших горных направлений в мире и обязательным пунктом в вашем списке достопримечательностей в Швейцарии. Роскошные отели и дорогие рестораны - обычное дело в этом шикарном курортном городе, который принимал две зимние Олимпийские игры.",
+        "name": "Санкт-Мориц"
+      },
+      {
+        "lang": "bel",
+        "description": "Люстраныя азёры, ледавікі, няроўныя вяршыні, альпійскія лясы і сонечныя прамяні робяць Санкт-Морыц адным з галоўных горных напрамкаў у свеце і абавязковым у вашым спісе спраў у Швейцарыі. У гэтым шыкоўным курортным гарадку, які правёў дзве зімовыя Алімпійскія гульні, паралельныя гатэлі і дарагія рэстараны.",
+        "name": "Санкт-Морыц"
+      }
+    ]
   }
 ]
