@@ -1,7 +1,8 @@
 export const initialState = {
     headerInputValue: '',
     navInputValue: '',
-    country: ''
+    country: '',
+    indexLang: 0
 };
 
 export const actionsCommon = {
@@ -10,7 +11,9 @@ export const actionsCommon = {
     setNavInputValue: (value) =>
         ({type: 'COMMON/SET_NAV_INPUT_VALUE', value}),
     setCountryElem: (country) =>
-        ({type: 'COMMON/SET_COUNTRY', country})
+        ({type: 'COMMON/SET_COUNTRY', country}),
+    setIndexLang: (index) =>
+        ({type: 'COMMON/SET_INDEX_LANG', index})
 }
 
 
@@ -32,6 +35,12 @@ const commonReducer = (state = initialState, action) => {
             return {
                 ...state,
                 country: action.country
+            }
+        }
+        case 'COMMON/SET_INDEX_LANG': {
+            return {
+                ...state,
+                indexLang: action.index
             }
         }
         default:

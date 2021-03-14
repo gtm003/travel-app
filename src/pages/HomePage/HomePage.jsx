@@ -8,14 +8,14 @@ const Header = React.lazy(() => import('../../components/header/header'));
 const SuspendedHeader = withSuspense(Header);
 
 const HomePage = (props) => {
-    console.log(props);
     const {headerPhoto} = props.homePage;
+    console.log(props);
 
     return (
         <>
             <Navbar isMain={true} common={props.common}/>
             <SuspendedHeader headerPhoto={headerPhoto} common={props.common}/>
-            <Content country={props.common.country}/>
+            <Content country={props.common.country} indexLang={props.common.indexLang}/>
         </>
     );
 }

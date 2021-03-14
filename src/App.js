@@ -28,15 +28,24 @@ function App() {
 
   const [country, setCountry] = useState(null);
   const dispatch = useDispatch();
+  const [indexLang, setIndexLang] = useState(0);
 
   function selectCountry(country) {
-    console.log(country);
     setCountry(country);
     dispatch(actionsCommon.setCountryElem(country))
   }
 
   useEffect(() => {
     dispatch(setHeaderPhoto());
+
+    function getIndexLang() {
+      const index = localStorage.getItem('indexLang') ? localStorage.getItem('indexLang') : 0;
+      dispatch(actionsCommon.setIndexLang(index));
+      return index;
+    }
+
+    setIndexLang(getIndexLang());
+
   }, []);
 
   return (
@@ -58,7 +67,6 @@ function App() {
 
         {/*<Header country={country}/>*/}
         <Footer />
-
       </div>
     </Context.Provider>
   );
