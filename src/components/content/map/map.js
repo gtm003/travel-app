@@ -64,7 +64,6 @@ export class Map extends React.Component {
       document.getElementById(this.props.id),
       this.props.options);
     this.props.onMapLoad(map);
-    console.log(coordinatesOfBorder[this.props.country]);
     if (coordinatesOfBorder[this.props.country]) {
       const coordinateArr = coordinatesOfBorder[this.props.country];
       coordinateArr.forEach(item => {

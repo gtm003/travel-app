@@ -17,8 +17,8 @@ export default function Content(props) {
     {props.country && (
     <div className = {styles.contentCountry}>
       <Description country = {props.country} indexLang = {props.indexLang}/>
-      <GalleryNew country = {props.country} indexLang = {props.indexLang}/>
       <VideoPlayer country = {props.country}/>
+      <GalleryNew country = {props.country} indexLang = {props.indexLang}/>
       <Map id="Map"
         options = {{
           center: { 

@@ -1,14 +1,34 @@
 .card {
-  width: 300px;
-  height: 250px;
-  background: rgba(144, 219, 175, 0.527);
+  width: 280px;
+  height: 230px;
+  background: #028E9B;
   text-align: center;
   margin: 1rem;
   overflow: hidden;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    background: #5EC4CD;
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 0 30px #015C65;
+  }
   h2, h3 {
     margin: 0.5rem;
   }
   img {
     width: 100%;
+  }
+}
+
+@keyframes increase {
+  50% {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    
+  }
+  100% {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
   }
 }

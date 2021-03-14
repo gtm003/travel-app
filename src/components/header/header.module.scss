@@ -1,8 +1,5 @@
 .header {
-  background-color: rgba(0, 255, 255, 0.3);
-  color: yellow;
-  text-shadow: -1px -1px 1px rgb(189, 209, 192), 
-	2px 2px 1px rgb(4, 26, 1);
+  background-color: #35C0CD;
   display: flex;
   justify-content: space-between;
   height: 100px;
@@ -13,9 +10,25 @@
 
 .logo {
   margin-left: 10rem;
+  stroke-width: 0.5px;
   &:hover {
     cursor: pointer;
-    color: rgb(184, 240, 184);
+  }
+  &:hover .plane {
+    //animation: colorText forwards;
+    fill: #DAA26F;
+    transition: all 1s ease;
+  }
+  & #text1 {
+    fill: #793D06;
+  }
+  & #text2 {
+    fill: #793D06;
+  }
+  & .plane {
+    fill: #05414A;
+    stroke-width: 0.3px;
+    transition: all 1s ease;
   }
 }
 
@@ -70,4 +83,22 @@
     appearance: none;
     background:  #fff url('../../assets/sort-down.svg') 100%/contain no-repeat;
   }
+}
+
+@keyframes colorText {
+	0%   {
+		fill: #9D1044;
+	}
+	100% {
+		fill: #9D1044; 
+	}
+}
+
+@keyframes colorPlane {
+	0%   {
+		fill: #CE4377;
+	}
+	100% {
+		fill: #CE698E; 
+	}
 }

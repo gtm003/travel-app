@@ -1,6 +1,7 @@
 import React, { Fragment, useContext } from 'react';
 import Context from '../../context';
 import styles from './header.module.scss';
+import Logo from './logo';
 
 export default function Header(props) {
   return (
@@ -8,15 +9,6 @@ export default function Header(props) {
       <Logo />
       <Search country = {props.country}/>
       <SelectLang />
-    </div>
-  )
-}
-
-function Logo(props) {
-  const {selectCountry} = useContext(Context);
-  return (
-    <div className={styles.logo} onClick = {() => selectCountry(null)}>
-      <h2 style = {styles.h2}>TravelApp</h2>
     </div>
   )
 }
