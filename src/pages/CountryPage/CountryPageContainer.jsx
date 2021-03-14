@@ -8,7 +8,6 @@ import {actionsCategories} from "../../redux/countryReducer";
 
 const CountryPageContainer = (props) => {
     const title = props.match.params.query;
-    console.log(title);
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -19,15 +18,14 @@ const CountryPageContainer = (props) => {
         }
     }, []);
 
-    const query = props.match.params.query.split('')
-        .map((el, i) => {
-        return i === 0 ? el.toUpperCase() : el.toLowerCase()
-    }).join('');
+    // const query = props.match.params.query.split('').map((el, i) => {
+    //     return i === 0 ? el.toUpperCase() : el.toLowerCase()
+    // }).join('');
 
     return (
-        <CountryPage  countryPage={props.countryPage}
-                      query={query}
-                      common={props.common}
+        <CountryPage countryPage={props.countryPage}
+                     query={props.match.params.query}
+                     common={props.common}
         />
     )
 }

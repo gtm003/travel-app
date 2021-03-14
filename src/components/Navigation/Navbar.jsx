@@ -54,10 +54,10 @@ const Navbar = (props) => {
     }
 
     return (
-        <nav className={`navigation ${props.isMain && isTransparent ? 'navigation__transparent' : ''}`}>
+        <nav className={`navigation ${!props.isMain && isTransparent ? 'navigation__transparent' : ''}`}>
             <Logo />
             <div className={'navigation__search-bar'}>
-                <SearchBar searchProps={SearchProps}/>
+                {!props.isHideSearch && <SearchBar searchProps={SearchProps}/>}
             </div>
             <SelectLang indexLang={props.common.indexLang}/>
         </nav>

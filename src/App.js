@@ -53,19 +53,14 @@ function App() {
       <div className = 'wrapper' style={wrapperStyle}>
         <Switch>
           <Route exact path='/'
-                 render={() => <Redirect to={'/travel-app'}/>}/>
-
-          <Route path='/travel-app'
                  render={() => <SuspendedHomePage />}/>
 
-          <Route path='/country/:query?'
+          <Route exact path='/country/:query?'
                  render={() => <SuspendedCountryPage />}/>
 
-          <Route path='*'
+          <Route exact path='*'
                  render={() => <div>404 NOT FOUND</div>}/>
         </Switch>
-
-        {/*<Header country={country}/>*/}
         <Footer />
       </div>
     </Context.Provider>

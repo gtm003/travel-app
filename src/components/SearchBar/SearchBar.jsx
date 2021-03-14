@@ -47,7 +47,7 @@ const SearchBar = (props) => {
        <form className={'search-bar ' + (isBigSearchBar && ' search-bar--bigger ')} method="get">
            { redirect !== '' && <Redirect to={redirect} />}
            <div className={'search-bar__container'}>
-               <input ref={inputEl} value={value} onChange={onChange} placeholder="Search for free photos" type="search"/>
+               <input ref={inputEl} value={value} onChange={onChange} placeholder="Search travel" type="search"/>
                <button onClick={onClick}>
                    <i className={'svg-icon'}><img src={searchIcon}/></i>
                </button>
