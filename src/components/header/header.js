@@ -1,12 +1,10 @@
 import React, { Fragment, useContext } from 'react';
-import Context from '../../context';
 import styles from './header.module.scss';
 import './header.scss';
 import HeaderContent from "./HeaderContent/HeaderContent";
 
 const Header = (props) => {
     const {headerPhoto} = props;
-    console.log(props);
 
     return (
         <header className={'header'}>
@@ -19,27 +17,9 @@ const Header = (props) => {
                        target={'_blank'}>Photo by {headerPhoto.phNames}</a>
                 </div>
             </div>
-            <HeaderContent common={props.common}/>
+            <HeaderContent common={props.common} homePage={props.homePage} />
         </header>
     )
 }
 
 export default Header;
-
-
-// function Search(props) {
-//   return (
-//     <Fragment>
-//       {!props.country && (
-//           <div className = {styles.search}>
-//           <form>
-//             <input type="search" placeholder="Search country" className = {styles.inputSearch}/>
-//             <button className = {styles.cancelButton}/>
-//           </form>
-//           <button className = {styles.confirmButton}>Search</button>
-//         </div>
-//         )
-//       }
-//     </Fragment>
-//   )
-// }

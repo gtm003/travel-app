@@ -1,8 +1,6 @@
 import defaultHeaderImage from '../assets/images/default-header-bg.jpeg';
 import {photoAPI} from '../api/api';
 import {getRandomInt} from "../utils/common";
-import {isUniquePhoto, photoEditing} from "../utils/photoEditing";
-
 
 const initialState = {
     headerPhoto: {
@@ -10,11 +8,17 @@ const initialState = {
         phNames: 'Nothing ahead',
         phLink: 'https://www.pexels.com/@kira-schwarz'
     },
+    filterCountry: [],
+    headerSearchTitle: ''
 };
 
 export const actions = {
     setHeaderPhoto: (phLink, src, phNames) =>
-        ({type: 'MAIN/UPDATE_HEADER_PHOTO', phNames, phLink, src})
+        ({type: 'MAIN/UPDATE_HEADER_PHOTO', phNames, phLink, src}),
+    setFilterCountryArr: (arr) =>
+        ({type: 'MAIN/SET_FILTER_COUNTRY_ARR', arr}),
+    setHeaderSearchTitle: (title) =>
+        ({type: 'MAIN/SET_HEADER_SEARCH_TITLE', title})
 }
 
 
@@ -29,6 +33,18 @@ const homeReducer = (state = initialState, action) => {
             return {
                 ...state,
                 headerPhoto: newHeaderPhoto
+            };
+        }
+        case 'MAIN/SET_FILTER_COUNTRY_ARR': {
+            return {
+                ...state,
+                filterCountry: [...action.arr]
+            };
+        }
+        case 'MAIN/SET_HEADER_SEARCH_TITLE': {
+            return {
+                ...state,
+                headerSearchTitle: action.title
             };
         }
         default:

@@ -1,12 +1,12 @@
 import React from "react";
 import SearchBar from "../../SearchBar/SearchBar";
-import {actionsCommon} from "../../../redux/commonReducer";
+import {actions} from "../../../redux/homeReducer";
 
 const HeaderContent = (props) => {
     const SearchProps = {
-        value: props.common.headerInputValue,
+        value: props.homePage.headerSearchTitle,
         isBigSearchBar: true,
-        setInput: actionsCommon.setHeaderInputValue
+        setInput: actions.setHeaderSearchTitle
     }
 
     return (
