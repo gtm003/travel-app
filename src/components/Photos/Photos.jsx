@@ -11,10 +11,10 @@ const getColumn = (arrColumns, photos) => {
 
     for (let i = 0; i < arrColumns.length; i++) {
         const photosColumn = arrColumns[i].photos.map((index) => {
-            return <PhotoCard src={photos[index].src}/>
+            return <PhotoCard src={photos[index].src} key={photos[index].src}/>
         });
 
-        columns.push(<PhotosColumn photosElems={photosColumn} /> )
+        columns.push(<PhotosColumn photosElems={photosColumn} key={i}/> )
     }
 
     return columns;

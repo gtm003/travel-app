@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Context from './context';
-import Content from './components/content/content';
 import {connect, useDispatch} from "react-redux";
-import {setHeaderPhoto} from "./redux/homeReducer";
+import {actions, setHeaderPhoto} from "./redux/homeReducer";
 import {Redirect, Route, Switch} from 'react-router-dom'
 import {compose} from "redux";
 import {actionsCommon} from "./redux/commonReducer";
 import {withSuspense} from "./components/common/Suspense/withSuspense";
+import countries from './constants/country.json';
 
 
 const HomePageContainer = React.lazy(() => import('./pages/HomePage/HomePageContainer'));
@@ -46,26 +45,31 @@ function App() {
 
     setIndexLang(getIndexLang());
 
+    const arr = [];
+    countries.forEach((el) => {
+      arr.push(el.localizations[0].name.toLowerCase());
+    });
+
+    dispatch(actions.setFilterCountryArr(arr));
+
   }, []);
 
   return (
     <Context.Provider value = {{selectCountry}}>
       <div className = 'wrapper' style={wrapperStyle}>
         <Switch>
-          <Route exact path='/'
-                 render={() => <Redirect to={'/travel-app'}/>}/>
+          <Route exact path={'/travel-app'}
+                 render={() => <Redirect to={'/'}/>}/>
 
-          <Route path='/travel-app'
+          <Route exact path='/'
                  render={() => <SuspendedHomePage />}/>
 
-          <Route path='/country/:query?'
+          <Route exact path='/country/:query?'
                  render={() => <SuspendedCountryPage />}/>
 
-          <Route path='*'
+          <Route exact path='*'
                  render={() => <div>404 NOT FOUND</div>}/>
         </Switch>
-
-        {/*<Header country={country}/>*/}
         <Footer />
       </div>
     </Context.Provider>

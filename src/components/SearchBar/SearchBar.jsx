@@ -1,9 +1,10 @@
 import React, {useEffect, useRef, useState} from "react";
 import './search-bar.scss'
 import searchIcon from '../../assets/icons/search.svg';
-import closeIcon from '../../assets/icons/close.svg';
 import {useDispatch} from "react-redux";
 import {Redirect} from "react-router-dom";
+import {actions} from "../../redux/homeReducer";
+import countries from "../../constants/country.json";
 
 
 const SearchBar = (props) => {
@@ -35,8 +36,16 @@ const SearchBar = (props) => {
     }, []);
 
     const onChange = () => {
-        const value = inputEl.current?.value;
+        const value = inputEl.current?.value.toLowerCase().trim();
         dispatch(setInput(value));
+
+        const arr = [];
+        countries.forEach((el) => {
+            const country = el.localizations[0].name.toLowerCase();
+            if (country.includes(value)) arr.push(country);
+        });
+
+        dispatch(actions.setFilterCountryArr(arr));
     }
 
     const onClick = () => {
@@ -47,7 +56,7 @@ const SearchBar = (props) => {
        <form className={'search-bar ' + (isBigSearchBar && ' search-bar--bigger ')} method="get">
            { redirect !== '' && <Redirect to={redirect} />}
            <div className={'search-bar__container'}>
-               <input ref={inputEl} value={value} onChange={onChange} placeholder="Search for free photos" type="search"/>
+               <input ref={inputEl} value={value} onChange={onChange} placeholder="Search travel" type="search"/>
                <button onClick={onClick}>
                    <i className={'svg-icon'}><img src={searchIcon}/></i>
                </button>

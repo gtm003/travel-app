@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import Context from '../../context';
 import styles from './content.module.scss';
 import country from '../../constants/country.json';
-import Card from './card/card';
 import Description from './description/description';
 import Gallery, { GalleryNew } from './gallery/gallery';
 import VideoPlayer from './video/video';
@@ -45,15 +44,6 @@ export default function Content(props) {
           />
         </div>
       </div>)}
-
-    {!props.country && (
-    <div className = {styles.contentMain}>
-      {
-        country.map((item, index) => {
-          return <Card key = {index} country = {item} indexLang = {props.indexLang}/>
-        })
-      }
-    </div>)}
     </React.Fragment>
   )
 }
