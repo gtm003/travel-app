@@ -14,12 +14,11 @@ export default function Content(props) {
   //const {onToggleDefeat} = useContext(Context);
   //console.log(props.country.capitalLocation.coordinates);
   //<Gallery country = {props.country} indexLang = {props.indexLang}/>
-
   return (
     <React.Fragment>
     {props.country && (
       <div>
-        <WeatherTimeWidgets city={props.country.localizations[0].capital}/>
+        <WeatherTimeWidgets city={props.country.localizations[0].capital} currency = {props.country.currency}/>
         <div className = {styles.contentCountry}>
           <Description country = {props.country} indexLang = {props.indexLang}/>
           <VideoPlayer country = {props.country}/>
