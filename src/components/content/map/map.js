@@ -65,6 +65,7 @@ export class Map extends React.Component {
       this.props.options);
     this.props.onMapLoad(map);
     if (coordinatesOfBorder[this.props.country]) {
+      console.log('test');
       const coordinateArr = coordinatesOfBorder[this.props.country];
       coordinateArr.forEach(item => {
         const singlePoligonCoordinate = item.split(' ').map(item => item.split(','));
