@@ -1,0 +1,20 @@
+.widgets{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+.widgets-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget-container{
+  width: max-content;
+  margin: 0 1em;
+  font-size: larger;
+  font-weight: bold;
+  border: 2px solid green;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  background-color: white;
+}
