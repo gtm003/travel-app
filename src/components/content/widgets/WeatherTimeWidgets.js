@@ -16,7 +16,6 @@ const WeatherTimeWidgets = ({city, currency}) => {
   if (!data) {
     return '';
   }
-  console.log(data);
 
   let icon = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
   return (
