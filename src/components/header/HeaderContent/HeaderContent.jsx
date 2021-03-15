@@ -13,7 +13,7 @@ const HeaderContent = (props) => {
         <div className={'header__content'}>
             <h1 className={'header__title'}>Travel travel cho-to tam</h1>
             <div className={'header__search-container'}>
-                <SearchBar searchProps={SearchProps}/>
+                <SearchBar indexLang={props.common.indexLang} searchProps={SearchProps}/>
             </div>
         </div>
     )

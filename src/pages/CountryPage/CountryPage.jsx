@@ -17,16 +17,20 @@ const CountryPage = (props) => {
     const {photos, maxCountOfColumns} = props.countryPage;
     const query = props.query;
     const dispatch = useDispatch();
+    const indexLang = props.common.indexLang;
 
     const [title, setTitle] = useState('');
 
     useEffect(() => {
         for (let i = 0; i < country.length; i++) {
-            if (query.toLowerCase() === country[i].localizations[0].name.toLowerCase()){
+            const name = country[i].localizations[indexLang].name.toLowerCase();
+            const capital = country[i].localizations[indexLang].capital.toLowerCase();
 
+            if (query.toLowerCase() === name || query.toLowerCase() === capital){
                 dispatch(actionsCommon.setCountryElem(country[i]));
                 setTitle(country[i].localizations[props.common.indexLang].name);
                 break;
+
             } else if(country.length - 1 === i) {
                 dispatch(actionsCommon.setCountryElem(null));
                 switch (props.common.indexLang) {

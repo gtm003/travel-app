@@ -9,6 +9,7 @@ import countries from "../../constants/country.json";
 
 const SearchBar = (props) => {
     const {isBigSearchBar, value,setInput} = props.searchProps;
+    const indexLang = props.indexLang;
     const inputEl = useRef(null);
     const dispatch = useDispatch();
 
@@ -40,9 +41,13 @@ const SearchBar = (props) => {
         dispatch(setInput(value));
 
         const arr = [];
+
         countries.forEach((el) => {
-            const country = el.localizations[0].name.toLowerCase();
+            const country = el.localizations[indexLang].name.toLowerCase();
+            const capital = el.localizations[indexLang].capital.toLowerCase();
+
             if (country.includes(value)) arr.push(country);
+            if (capital.includes(value)) arr.push(country);
         });
 
         dispatch(actions.setFilterCountryArr(arr));
