@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Context from '../../context';
-import styles from './content.module.scss';
+import './Content.scss';
 import country from '../../constants/country.json';
 import Description from './description/description';
 import Gallery, { GalleryNew } from './gallery/gallery';
@@ -15,7 +15,7 @@ export default function Content(props) {
     {props.country && (
       <div>
         <WeatherTimeWidgets city={props.country.localizations[0].capital} currency = {props.country.currency} indexLang = {props.indexLang}/>
-        <div className = {styles.contentCountry}>
+        <div className = 'content-country'>
           <Description country = {props.country} indexLang = {props.indexLang}/>
           <VideoPlayer country = {props.country}/>
           <GalleryNew country = {props.country} indexLang = {props.indexLang}/>

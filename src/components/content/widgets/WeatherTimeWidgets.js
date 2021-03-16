@@ -3,9 +3,11 @@ import { useFetch } from "react-async";
 import './WeatherTimeWidgets.scss'
 import ExchangeWidget from "./ExchangeWidget";
 import {ClockTimeZone} from "./utilities";
+
 const langArr = ['en', 'ru', 'be'];
 
 const WeatherTimeWidgets = ({city, currency, indexLang}) => {
+
   const dateTest = new Date();
   const locales = langArr[indexLang];
   const optionsDate = { 
