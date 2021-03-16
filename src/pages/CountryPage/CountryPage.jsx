@@ -14,7 +14,7 @@ const Photos = React.lazy(() => import('../../components/Photos/Photos'));
 const SuspendedPhotos = withSuspense(Photos);
 
 const CountryPage = (props) => {
-    const {photos, maxCountOfColumns} = props.countryPage;
+    // const {photos, maxCountOfColumns} = props.countryPage;
     const query = props.query;
     const dispatch = useDispatch();
     const indexLang = props.common.indexLang;
@@ -23,10 +23,14 @@ const CountryPage = (props) => {
 
     useEffect(() => {
         for (let i = 0; i < country.length; i++) {
-            const name = country[i].localizations[indexLang].name.toLowerCase();
-            const capital = country[i].localizations[indexLang].capital.toLowerCase();
+            const typesQuery = [];
 
-            if (query.toLowerCase() === name || query.toLowerCase() === capital){
+            country[i].localizations.forEach((el) => {
+               typesQuery.push(el.name.toLowerCase());
+               typesQuery.push(el.capital.toLowerCase());
+            });
+
+            if (typesQuery.includes(query.toLowerCase())){
                 dispatch(actionsCommon.setCountryElem(country[i]));
                 setTitle(country[i].localizations[props.common.indexLang].name);
                 break;
