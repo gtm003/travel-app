@@ -17,7 +17,7 @@ export default function Content(props) {
     <React.Fragment>
     {props.country && (
       <div>
-        <WeatherTimeWidgets city={props.country.localizations[0].capital} currency = {props.country.currency}/>
+        <WeatherTimeWidgets city={props.country.localizations[0].capital} currency = {props.country.currency} indexLang = {props.indexLang}/>
         <div className = {styles.contentCountry}>
           <Description country = {props.country} indexLang = {props.indexLang}/>
           <VideoPlayer country = {props.country}/>
@@ -37,7 +37,7 @@ export default function Content(props) {
                   lng: props.country.capitalLocation.coordinates[0]
                 },
                 map: map,
-                title: 'Rome'
+                title: props.country.localizations[props.indexLang].name
               });
             }}
             country = {props.country.localizations[0].name}
@@ -47,3 +47,5 @@ export default function Content(props) {
     </React.Fragment>
   )
 }
+
+//        <WeatherTimeWidgets city={props.country.localizations[0].capital} currency = {props.country.currency}/>

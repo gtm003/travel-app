@@ -83,7 +83,7 @@ const CountryPage = (props) => {
                 {props.common.country !== null && <section className={'category__grid'}>
                     <SuspendedPhotos photos={photos} maxCountOfColumns={maxCountOfColumns}/>
                 </section>
-                }
+    }
             </div>
         </>
     );
