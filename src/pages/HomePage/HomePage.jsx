@@ -12,7 +12,7 @@ const HomePage = (props) => {
 
     return (
         <>
-            <Navbar isMain={true} common={props.common}/>
+            <Navbar isMain={true} common={props.common} page={props.homePage}/>
             <SuspendedHeader headerPhoto={headerPhoto} common={props.common} homePage={props.homePage}/>
             <GridCountry indexLang={props.common.indexLang} homePage={props.homePage} />
         </>

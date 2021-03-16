@@ -7,6 +7,7 @@ import {useEffect, useState} from "react";
 const GridCountry = (props) => {
     const {filterCountry} = props.homePage;
     const [gridCountry, setGridCountry] = useState([...country]);
+    const indexLang = props.indexLang;
 
     useEffect(() => {
         const title = props.homePage.headerSearchTitle.trim();
@@ -15,9 +16,9 @@ const GridCountry = (props) => {
         else {
             const arr = [];
             country.forEach((el) => {
-                if (filterCountry.includes(el.localizations[0].name.toLowerCase())) {
+                if (filterCountry.includes(el.localizations[indexLang].name.toLowerCase())
+                    || filterCountry.includes(el.localizations[indexLang].capital.toLowerCase())) {
                     arr.push(el);
-                    // setGridCountry([...arr]);
                 }
             });
             setGridCountry([...arr]);
@@ -28,7 +29,7 @@ const GridCountry = (props) => {
         <div className={styles.contentMain}>
             {
                 gridCountry.map((item, index) => {
-                    return <Card key={index} country={item} indexLang={props.indexLang}/>
+                    return <Card key={index} country={item} indexLang={indexLang}/>
                 })
             }
         </div>)

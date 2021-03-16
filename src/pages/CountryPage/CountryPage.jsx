@@ -14,19 +14,27 @@ const Photos = React.lazy(() => import('../../components/Photos/Photos'));
 const SuspendedPhotos = withSuspense(Photos);
 
 const CountryPage = (props) => {
-    const {photos, maxCountOfColumns} = props.countryPage;
+    // const {photos, maxCountOfColumns} = props.countryPage;
     const query = props.query;
     const dispatch = useDispatch();
+    const indexLang = props.common.indexLang;
 
     const [title, setTitle] = useState('');
 
     useEffect(() => {
         for (let i = 0; i < country.length; i++) {
-            if (query.toLowerCase() === country[i].localizations[0].name.toLowerCase()){
+            const typesQuery = [];
 
+            country[i].localizations.forEach((el) => {
+               typesQuery.push(el.name.toLowerCase());
+               typesQuery.push(el.capital.toLowerCase());
+            });
+
+            if (typesQuery.includes(query.toLowerCase())){
                 dispatch(actionsCommon.setCountryElem(country[i]));
                 setTitle(country[i].localizations[props.common.indexLang].name);
                 break;
+
             } else if(country.length - 1 === i) {
                 dispatch(actionsCommon.setCountryElem(null));
                 switch (props.common.indexLang) {
@@ -56,13 +64,13 @@ const CountryPage = (props) => {
         }
     }
 
-    useEffect(() => {
-        if (isFetching) {
-            dispatch(updateCategoriesArrayPhotos(currentPage, query));
-            setCurrentPage(prevState => prevState + 1);
-            setFetching(false);
-        }
-    }, [isFetching]);
+    // useEffect(() => {
+    //     if (isFetching) {
+    //         dispatch(updateCategoriesArrayPhotos(currentPage, query));
+    //         setCurrentPage(prevState => prevState + 1);
+    //         setFetching(false);
+    //     }
+    // }, [isFetching]);
 
     useEffect(() => {
         document.addEventListener('scroll', scrollHandler);
@@ -73,17 +81,24 @@ const CountryPage = (props) => {
 
     return (
         <>
-            <Navbar isHideSearch={true} isMain={false} common={props.common}/>
+            <Navbar isHideSearch={true} isMain={false} common={props.common} page={props.countryPage}/>
             <div className={'category'}>
                 <section className={'category__header'}>
                     <h1 className={'category__header__title'}>{title}</h1>
                 </section>
 
                 <Content country={props.common.country} indexLang={props.common.indexLang} />
+<<<<<<< HEAD
                 {props.common.country !== null && <section className={'category__grid'}>
                     <SuspendedPhotos photos={photos} maxCountOfColumns={maxCountOfColumns}/>
                 </section>
     }
+=======
+                {/*{props.common.country !== null && <section className={'category__grid'}>*/}
+                {/*    <SuspendedPhotos photos={photos} maxCountOfColumns={maxCountOfColumns}/>*/}
+                {/*</section>*/}
+                }
+>>>>>>> ca5c3c531301f005e41c213852071d781575431c
             </div>
         </>
     );

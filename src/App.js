@@ -43,11 +43,13 @@ function App() {
       return index;
     }
 
-    setIndexLang(getIndexLang());
+    const indexLang = getIndexLang();
+    setIndexLang(indexLang);
 
     const arr = [];
     countries.forEach((el) => {
-      arr.push(el.localizations[0].name.toLowerCase());
+      arr.push(el.localizations[indexLang].name.toLowerCase());
+      arr.push(el.localizations[indexLang].capital.toLowerCase());
     });
 
     dispatch(actions.setFilterCountryArr(arr));
