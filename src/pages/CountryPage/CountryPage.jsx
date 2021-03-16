@@ -60,13 +60,13 @@ const CountryPage = (props) => {
         }
     }
 
-    useEffect(() => {
-        if (isFetching) {
-            dispatch(updateCategoriesArrayPhotos(currentPage, query));
-            setCurrentPage(prevState => prevState + 1);
-            setFetching(false);
-        }
-    }, [isFetching]);
+    // useEffect(() => {
+    //     if (isFetching) {
+    //         dispatch(updateCategoriesArrayPhotos(currentPage, query));
+    //         setCurrentPage(prevState => prevState + 1);
+    //         setFetching(false);
+    //     }
+    // }, [isFetching]);
 
     useEffect(() => {
         document.addEventListener('scroll', scrollHandler);
@@ -77,16 +77,16 @@ const CountryPage = (props) => {
 
     return (
         <>
-            <Navbar isHideSearch={true} isMain={false} common={props.common}/>
+            <Navbar isHideSearch={true} isMain={false} common={props.common} page={props.countryPage}/>
             <div className={'category'}>
                 <section className={'category__header'}>
                     <h1 className={'category__header__title'}>{title}</h1>
                 </section>
 
                 <Content country={props.common.country} indexLang={props.common.indexLang} />
-                {props.common.country !== null && <section className={'category__grid'}>
-                    <SuspendedPhotos photos={photos} maxCountOfColumns={maxCountOfColumns}/>
-                </section>
+                {/*{props.common.country !== null && <section className={'category__grid'}>*/}
+                {/*    <SuspendedPhotos photos={photos} maxCountOfColumns={maxCountOfColumns}/>*/}
+                {/*</section>*/}
                 }
             </div>
         </>

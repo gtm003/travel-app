@@ -7,6 +7,7 @@ import {useDispatch} from "react-redux";
 import {actionsCommon} from "../../redux/commonReducer";
 import Logo from "../header/logo";
 import {useRef} from "react";
+import {actions} from "../../redux/homeReducer";
 
 
 const SelectLang = (props) => {
@@ -48,16 +49,16 @@ const Navbar = (props) => {
     }, [scrollTop]);
 
     const SearchProps = {
-        value: props.common.navInputValue,
+        value: props.page.headerSearchTitle || '',
         isBigSearchBar: false,
-        setInput: actionsCommon.setNavInputValue
+        setInput: actions.setHeaderSearchTitle
     }
 
     return (
         <nav className={`navigation ${!props.isMain && isTransparent ? 'navigation__transparent' : ''}`}>
             <Logo />
             <div className={'navigation__search-bar'}>
-                {!props.isHideSearch && <SearchBar searchProps={SearchProps}/>}
+                {!props.isHideSearch && <SearchBar indexLang={props.common.indexLang} searchProps={SearchProps}/>}
             </div>
             <SelectLang indexLang={props.common.indexLang}/>
         </nav>

@@ -6,7 +6,8 @@ const initialState = {
     photos: [],
     maxCountOfColumns: 3,
     photoPageIndex: 0,
-    title: ''
+    title: '',
+    headerSearchTitle: ''
 };
 
 export const actionsCategories = {
