@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../content/content.module.scss";
+import "../content/Content.scss";
 import country from "../../constants/country.json";
 import Card from "../content/card/card";
 import {useEffect, useState} from "react";
@@ -26,7 +26,7 @@ const GridCountry = (props) => {
     }, [props.homePage.headerSearchTitle]);
 
     return  (
-        <div className={styles.contentMain}>
+        <div className = 'content-main'>
             {
                 gridCountry.map((item, index) => {
                     return <Card key={index} country={item} indexLang={indexLang}/>

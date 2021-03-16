@@ -20,9 +20,13 @@ const SelectLang = (props) => {
         dispatch(actionsCommon.setIndexLang(index));
     }
 
+    const onClickSelect = (elem) => {
+      elem.classList.toggle('select-activ');
+    }
+
     return (
         <div className={'selectLang'}>
-            <select ref={selectRef} value={props.indexLang} onChange={onChangeSelect}>
+            <select ref={selectRef} value={props.indexLang} onChange={onChangeSelect} onClick={(e) => onClickSelect(e.target)}>
                 <option value="0">English</option>
                 <option value="1">Русский</option>
                 <option value="2">Беларускі</option>

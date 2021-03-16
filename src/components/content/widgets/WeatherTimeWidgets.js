@@ -4,7 +4,17 @@ import './WeatherTimeWidgets.scss'
 import ExchangeWidget from "./ExchangeWidget";
 import {ClockTimeZone} from "./utilities";
 
-const WeatherTimeWidgets = ({city, currency}) => {
+const langArr = ['en', 'ru', 'be'];
+
+const WeatherTimeWidgets = ({city, currency, indexLang}) => {
+
+  const dateTest = new Date();
+  const locales = langArr[indexLang];
+  const optionsDate = { 
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+  };
 
   const appID = '8e1eecd6fc68b8490908497ecf8ca301';
 
@@ -28,6 +38,10 @@ const WeatherTimeWidgets = ({city, currency}) => {
           </div>
           <div className='widget-container'>
             <span>{ClockTimeZone(data.timezone)}</span>
+          </div>
+          <div className='widget-container'>
+            <span>{dateTest.toLocaleString(locales, optionsDate)}</span><br></br>
+            <span>а тут время</span>
           </div>
           <ExchangeWidget currency={currency}/>
         </div>
