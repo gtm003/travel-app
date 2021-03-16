@@ -10,9 +10,6 @@ import WeatherTimeWidgets from "./widgets/WeatherTimeWidgets";
 
 
 export default function Content(props) {
-  //const {onToggleDefeat} = useContext(Context);
-  //console.log(props.country.capitalLocation.coordinates);
-  //<Gallery country = {props.country} indexLang = {props.indexLang}/>
   return (
     <React.Fragment>
     {props.country && (
@@ -48,4 +45,3 @@ export default function Content(props) {
   )
 }
 
-//        <WeatherTimeWidgets city={props.country.localizations[0].capital} currency = {props.country.currency}/>

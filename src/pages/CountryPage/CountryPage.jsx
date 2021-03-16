@@ -88,20 +88,10 @@ const CountryPage = (props) => {
                 </section>
 
                 <Content country={props.common.country} indexLang={props.common.indexLang} />
-<<<<<<< HEAD
-                {props.common.country !== null && <section className={'category__grid'}>
-                    <SuspendedPhotos photos={photos} maxCountOfColumns={maxCountOfColumns}/>
-                </section>
-    }
-=======
-                {/*{props.common.country !== null && <section className={'category__grid'}>*/}
-                {/*    <SuspendedPhotos photos={photos} maxCountOfColumns={maxCountOfColumns}/>*/}
-                {/*</section>*/}
-                }
->>>>>>> ca5c3c531301f005e41c213852071d781575431c
+                
             </div>
         </>
     );
 }
-
+ 
 export default CountryPage;
