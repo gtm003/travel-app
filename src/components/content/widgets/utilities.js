@@ -26,6 +26,58 @@ export function setMonth (month) {
       return 'December';
   }
 }
+//
+// export function setMonth (month) {
+//   switch (month) {
+//     case 0:
+//       return 'Студзеня';
+//     case 1:
+//       return 'Лютага';
+//     case 2:
+//       return 'Сакавика';
+//     case 3:
+//       return 'Красавика';
+//     case 4:
+//       return 'Мая';
+//     case 5:
+//       return 'Чэрвеня';
+//     case 6:
+//       return 'Ліпеня';
+//     case 7:
+//       return 'Жніўня';
+//     case 8:
+//       return 'Верасня';
+//     case 9:
+//       return 'Кастрычніка';
+//     case 10:
+//       return 'Лістапала';
+//     default:
+//       return 'Снежня';
+//   }
+// }
+//
+//
+// export function setDayOfWeek (day) {
+//   switch (day){
+//     case 0:
+//       return 'панядзелак';
+//     case 1:
+//       return 'аўторак';
+//     case 2:
+//       return 'серада';
+//     case 3:
+//       return 'чацьвер';
+//     case 4:
+//       return 'пятніца';
+//     case 5:
+//       return 'субота';
+//     case 6:
+//       return 'нядзеля';
+//     default:
+//       return 'error';
+//   }
+// }
+
 export function ClockTimeZone(timezone) {
   let TimezoneOffset = timezone/3600;
   let localTime = new Date();
