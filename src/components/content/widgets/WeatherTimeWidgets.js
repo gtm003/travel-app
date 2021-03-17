@@ -7,7 +7,7 @@ import TimeWidget from "./TimeWidget";
 
 const langArr = ['en', 'ru', 'be'];
 
-const WeatherTimeWidgets = ({city, currency, indexLang}) => {
+const WeatherTimeWidgets = ({city, currency, indexLang, cityText}) => {
 
   const dateTest = new Date();
   const locales = langArr[indexLang];
@@ -36,7 +36,7 @@ const WeatherTimeWidgets = ({city, currency, indexLang}) => {
     <div className='widgets'>
         <div className='widgets-container'>
           <div className='widget-container'>
-            <span className='city-name'>{city}: </span>
+            <span className='city-name'>{cityText}: </span>
             <span>{Math.round(data.main.temp)} °C</span>
             <img alt='weather icon' className='weather-icon' src={icon}/>
           </div>
