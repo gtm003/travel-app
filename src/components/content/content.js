@@ -24,8 +24,9 @@ export default function Content(props) {
     <React.Fragment>
     {country && (
       <div>
-        <WeatherTimeWidgets city={country.localizations[0].capital} currency={country.currency} indexLang={props.indexLang}/>
+        
         <div className = 'content-country'>
+          
           <Description country = {country} indexLang = {props.indexLang}/>
           <VideoPlayer country = {country}/>
           <GalleryNew country = {country} indexLang = {props.indexLang}/>
@@ -54,4 +55,9 @@ export default function Content(props) {
     </React.Fragment>
   )
 }
+//<WeatherTimeWidgets city={country.localizations[0].capital} currency={country.currency} indexLang={props.indexLang}/>
+//<Description country = {country} indexLang = {props.indexLang}/>
 
+//          <h2>{props.country.localizations[props.indexLang].name}</h2>
+//<h3>{props.country.localizations[props.indexLang].capital}</h3>
+//<p>{props.country.localizations[props.indexLang].description}</p>

@@ -20,3 +20,5 @@ const HomePage = (props) => {
 }
 
 export default HomePage;
+
+//<SuspendedHeader headerPhoto={headerPhoto} common={props.common} homePage={props.homePage}/>

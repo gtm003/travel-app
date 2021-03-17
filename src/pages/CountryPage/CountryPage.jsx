@@ -85,10 +85,6 @@ const CountryPage = (props) => {
         <>
             <Navbar isHideSearch={true} isMain={false} common={props.common} page={props.countryPage}/>
             <div className={'category'}>
-                <section className={'category__header'}>
-                    <h1 className={'category__header__title'}>{title}</h1>
-                </section>
-
                 <Content indexCountry={indexCountry} country={props.common.country} indexLang={props.common.indexLang} />
 
             </div>
@@ -97,3 +93,7 @@ const CountryPage = (props) => {
 }
 
 export default CountryPage;
+
+/*                <section className={'category__header'}>
+                    <h1 className={'category__header__title'}>{title}</h1>
+                </section>*/

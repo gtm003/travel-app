@@ -1,10 +1,16 @@
 .widgets{
-  display: flex;
+  //display: flex;
   justify-content: center;
-  margin: 1em;
+  //margin: 1em;
+  margin-left: 1em;
+  margin-top: 20px;
+  float: right;
+  background: #DAA26F;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
 }
 .widgets-container{
-  display: flex;
+  //display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -16,13 +22,13 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 0 1em;
-  font-size: larger;
+  margin-bottom: 1em;
+  //font-size: larger;
   font-weight: bold;
-  border: 2px solid green;
-  border-radius: 0.5rem;
-  padding: 0.7rem;
-  background-color: white;
+  //border: 2px solid green;
+  //border-radius: 0.5rem;
+  //padding: 0.7rem;
+  //background-color: rgb(48, 119, 211);
 }
 .city-name{
   margin-right: 0.3em;
