@@ -27,6 +27,9 @@ const WeatherTimeWidgets = ({city, currency, indexLang}) => {
   if (!data) {
     return '';
   }
+  if (city === 'Rome'){
+    data.timezone =  3600;
+  }
 
   let icon = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
   return (
