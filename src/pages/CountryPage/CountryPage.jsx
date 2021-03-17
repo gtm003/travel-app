@@ -15,21 +15,21 @@ const SuspendedPhotos = withSuspense(Photos);
 
 const CountryPage = (props) => {
     // const {photos, maxCountOfColumns} = props.countryPage;
-    const [indexCountry, setIndexCountry] = useState(-1);
-    const query = props.query;
-    const dispatch = useDispatch();
-    const indexLang = props.common.indexLang;
+  const [indexCountry, setIndexCountry] = useState(-1);
+  const query = props.query;
+  const dispatch = useDispatch();
+  const indexLang = props.common.indexLang;
 
-    const [title, setTitle] = useState('');
+  const [title, setTitle] = useState('');
 
-    useEffect(() => {
-        for (let i = 0; i < country.length; i++) {
-            const typesQuery = [];
+  useEffect(() => {
+    for (let i = 0; i < country.length; i++) {
+      const typesQuery = [];
 
-            country[i].localizations.forEach((el) => {
-               typesQuery.push(el.name.toLowerCase());
-               typesQuery.push(el.capital.toLowerCase());
-            });
+      country[i].localizations.forEach((el) => {
+        typesQuery.push(el.name.toLowerCase());
+        typesQuery.push(el.capital.toLowerCase());
+      });
 
             if (typesQuery.includes(query.toLowerCase())){
                 dispatch(actionsCommon.setCountryElem(country[i]));
@@ -82,13 +82,10 @@ const CountryPage = (props) => {
     }, []);
 
     return (
-        <>
-            <Navbar isHideSearch={true} isMain={false} common={props.common} page={props.countryPage}/>
-            <div className={'category'}>
-                <Content indexCountry={indexCountry} country={props.common.country} indexLang={props.common.indexLang} />
-
-            </div>
-        </>
+      <React.Fragment>
+                    <Navbar isHideSearch={true} isMain={false} common={props.common} page={props.countryPage}/>
+                    <Content indexCountry={indexCountry} country={props.common.country} indexLang={props.common.indexLang} />
+      </React.Fragment>
     );
 }
 
@@ -97,3 +94,4 @@ export default CountryPage;
 /*                <section className={'category__header'}>
                     <h1 className={'category__header__title'}>{title}</h1>
                 </section>*/
+                

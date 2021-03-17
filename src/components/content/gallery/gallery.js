@@ -57,7 +57,7 @@ export class GalleryNew extends React.Component {
   render() {
     return (
       <div className = {styles.gallery}>
-        <section className='app'>
+        <section className='gallery__img'>
         <ImageGallery
           items={this.images}
           lazyLoad={false}

@@ -1,6 +1,10 @@
+@import "src/sass/abstract/constants";
 .description {
   //border: 1px solid green;
-  padding: 1rem;
-  margin: 1rem;
-  //max-width: 40%;
+  //padding: 1rem;
+  width: 47vw;
+  @media screen and (max-width: $content-width-little) {
+    width: 90vw;
+    margin: 0 auto;
+  }
 }
