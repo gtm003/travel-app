@@ -51,23 +51,23 @@ const SearchBar = (props) => {
         });
 
         dispatch(actions.setFilterCountryArr(arr));
-    }
+    };
 
     const onClick = () => {
         addResentWordEvent();
-    }
+    };
 
     return (
        <form className={'search-bar ' + (isBigSearchBar && ' search-bar--bigger ')} method="get">
            { redirect !== '' && <Redirect to={redirect} />}
            <div className={'search-bar__container'}>
-               <input ref={inputEl} value={value} onChange={onChange} placeholder="Search travel" type="search"/>
+               <input autoFocus ref={inputEl} value={value} onChange={onChange} placeholder="Search travel" type="search"/>
                <button onClick={onClick}>
                    <i className={'svg-icon'}><img src={searchIcon}/></i>
                </button>
            </div>
        </form>
    )
-}
+};
 
 export default SearchBar;
