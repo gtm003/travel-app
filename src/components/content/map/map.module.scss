@@ -1,9 +1,14 @@
+@import "src/sass/abstract/constants";
 .map {
-  border: 1px solid green;
-  padding: 1rem;
-  margin: 1rem;
-  width: 40vw;
-  height: 40vw;
-  margin: 1rem;
-  min-width: 310px;
+  border: 1px solid #DAA26F;
+  //margin: 1rem;
+  width: 45vw;
+  //min-height: 500px;
+  margin-top: 20px;
+  @media screen and (max-width: $content-width-little) {
+    width: 88vw;
+    margin: 0 auto;
+    height: 95vw;
+    margin-top: .5rem;
+  }
 }

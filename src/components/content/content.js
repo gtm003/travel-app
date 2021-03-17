@@ -23,34 +23,36 @@ export default function Content(props) {
   return (
     <React.Fragment>
     {country && (
-      <div>
-        
         <div className = 'content-country'>
-          
+          <div className = 'wrapper1'>
           <Description country = {country} indexLang = {props.indexLang}/>
-          <VideoPlayer country = {country}/>
-          <GalleryNew country = {country} indexLang = {props.indexLang}/>
           <Map id="Map"
-            options = {{
-              center: {
-                lat: country.center[1],
-                lng: country.center[0]
+          options = {{
+            center: {
+              lat: country.center[1],
+              lng: country.center[0]
+            },
+            zoom: 5
+          }}
+          onMapLoad = {map => {
+            const marker = new window.google.maps.Marker({
+              position: {
+                lat: country.capitalLocation.coordinates[1],
+                lng: country.capitalLocation.coordinates[0]
               },
-              zoom: 5
-            }}
-            onMapLoad = {map => {
-              const marker = new window.google.maps.Marker({
-                position: {
-                  lat: country.capitalLocation.coordinates[1],
-                  lng: country.capitalLocation.coordinates[0]
-                },
-                map: map,
-                title: country.localizations[props.indexLang].name
-              });
-            }}
-            country={country.localizations[0].name}
-          />
-        </div>
+              map: map,
+              title: country.localizations[props.indexLang].name
+            });
+          }}
+          country={country.localizations[0].name}
+        />
+          </div>
+          <div className='wrapper2'>
+          <VideoPlayer country = {country}/>
+        <GalleryNew country = {country} indexLang = {props.indexLang}/>
+          </div>
+
+
       </div>)}
     </React.Fragment>
   )
