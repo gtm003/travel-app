@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { useFetch } from "react-async";
 import './WeatherTimeWidgets.scss'
 import ExchangeWidget from "./ExchangeWidget";
-import {ClockTimeZone} from "./utilities";
+import {ClockTimeZone, renderDate} from "./utilities";
+import TimeWidget from "./TimeWidget";
 
 const langArr = ['en', 'ru', 'be'];
 
@@ -10,7 +11,7 @@ const WeatherTimeWidgets = ({city, currency, indexLang}) => {
 
   const dateTest = new Date();
   const locales = langArr[indexLang];
-  const optionsDate = { 
+  const optionsDate = {
     weekday: 'long',
     month: 'long',
     day: 'numeric',
@@ -34,14 +35,11 @@ const WeatherTimeWidgets = ({city, currency, indexLang}) => {
           <div className='widget-container'>
             <span className='city-name'>{city}: </span>
             <span>{Math.round(data.main.temp)} °C</span>
-            <img className='weather-icon' src={icon}/>
+            <img alt='weather icon' className='weather-icon' src={icon}/>
           </div>
-          <div className='widget-container'>
-            <span>{ClockTimeZone(data.timezone)}</span>
-          </div>
-          <div className='widget-container'>
-            <span>{dateTest.toLocaleString(locales, optionsDate)}</span><br></br>
-            <span>а тут время</span>
+          <div className='widget-container time-container'>
+            <span>{dateTest.toLocaleString(locales, optionsDate)}</span>
+            <TimeWidget timezone={data.timezone}/>
           </div>
           <ExchangeWidget currency={currency}/>
         </div>

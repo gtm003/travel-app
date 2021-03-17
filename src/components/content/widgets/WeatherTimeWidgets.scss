@@ -8,9 +8,11 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.time-container{
+  flex-direction: column;
+}
 .widget-container{
-  //display: flex;
+  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;

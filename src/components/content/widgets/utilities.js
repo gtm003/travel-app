@@ -30,13 +30,17 @@ export function ClockTimeZone(timezone) {
   let TimezoneOffset = timezone/3600;
   let localTime = new Date();
   let ms = localTime.getTime() + (localTime.getTimezoneOffset() * 60000) + TimezoneOffset * 3600000;
-  let time = new Date(ms);
+
+  return new Date(ms);
+}
+
+export function renderDate(time) {
   let hour = time.getHours();
-  let day = time.getDate();
-  let month = time.getMonth();
   let minute = time.getMinutes();
-  let temp = `${day} ${setMonth(month)} `;
-  temp  += ((hour < 10) ? "0" : "") + hour;
+  let second = time.getSeconds();
+  let temp  = ((hour < 10) ? "0" : "") + hour;
   temp += ((minute < 10) ? ":0" : ":") + minute;
+  temp += ((second < 10) ? ":0" : ":") + second;
+
   return temp;
 }
