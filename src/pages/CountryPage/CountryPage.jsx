@@ -15,6 +15,7 @@ const SuspendedPhotos = withSuspense(Photos);
 
 const CountryPage = (props) => {
     // const {photos, maxCountOfColumns} = props.countryPage;
+    const [indexCountry, setIndexCountry] = useState(-1);
     const query = props.query;
     const dispatch = useDispatch();
     const indexLang = props.common.indexLang;
@@ -32,12 +33,13 @@ const CountryPage = (props) => {
 
             if (typesQuery.includes(query.toLowerCase())){
                 dispatch(actionsCommon.setCountryElem(country[i]));
-                setTitle(country[i].localizations[props.common.indexLang].name);
+                setTitle(country[i].localizations[indexLang].name);
+                setIndexCountry(i);
                 break;
 
             } else if(country.length - 1 === i) {
                 dispatch(actionsCommon.setCountryElem(null));
-                switch (props.common.indexLang) {
+                switch (indexLang) {
                     case 0:
                         setTitle(`Travels to "${query}" region were not found `);
                         break;
@@ -87,11 +89,11 @@ const CountryPage = (props) => {
                     <h1 className={'category__header__title'}>{title}</h1>
                 </section>
 
-                <Content country={props.common.country} indexLang={props.common.indexLang} />
-                
+                <Content indexCountry={indexCountry} country={props.common.country} indexLang={props.common.indexLang} />
+
             </div>
         </>
     );
 }
- 
+
 export default CountryPage;

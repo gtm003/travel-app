@@ -1,0 +1,68 @@
+@import "../../sass/abstract/constants";
+.footer {
+  background-color: #35C0CD;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 110px;
+  align-items: center;
+  margin: 0;
+
+  @media screen and (min-width: $content-modal-little) {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .RSSchool {
+      margin: 0 1rem;
+      display: block;
+      width: 60px;
+      height: 40px;
+      background: url('../../assets/rs_logo.svg') 100%/contain no-repeat;
+    }
+    .youtube {
+      margin: 0 1rem;
+      display: block;
+      width: 90px;
+      height: 30px;
+      background: url('../../assets/youtube.svg') 100%/contain no-repeat;
+    }
+  }
+  .developers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .underline {
+      margin: 0 1rem;
+      a {
+        display: inline-block;
+        color: #1A1A1A;
+        line-height: 1;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+      }
+      a:after {
+        background-color: #1A1A1A;
+        display: block;
+        content: "";
+        height: 2px;
+        width: 0%;
+        left: 50%;
+        position: absolute;
+        transition: width .5s ease-in-out;
+        transform: translateX(-50%);
+      }
+      a:hover:after, a:focus:after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
