@@ -8,6 +8,7 @@ import {compose} from "redux";
 import {actionsCommon} from "./redux/commonReducer";
 import {withSuspense} from "./components/common/Suspense/withSuspense";
 import countries from './constants/country.json';
+import ScrollToTop from "./utils/ScrollToTop";
 
 
 const HomePageContainer = React.lazy(() => import('./pages/HomePage/HomePageContainer'));
@@ -58,6 +59,7 @@ function App() {
 
   return (
     <Context.Provider value = {{selectCountry}}>
+    <ScrollToTop/>
       <div className = 'wrapper' style={wrapperStyle}>
         <Switch>
           <Route exact path={'/travel-app'}
