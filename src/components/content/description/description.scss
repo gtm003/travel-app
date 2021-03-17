@@ -7,4 +7,16 @@
     width: 90vw;
     margin: 0 auto;
   }
+  .avatar {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 1rem;
+    border-radius: 6px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
 }
