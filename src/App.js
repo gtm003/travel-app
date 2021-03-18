@@ -62,16 +62,16 @@ function App() {
     <ScrollToTop/>
       <div className = 'wrapper' style={wrapperStyle}>
         <Switch>
-          <Route exact path={'/travel-app'}
-                 render={() => <Redirect to={'/'}/>}/>
+          <Route exact path={'/'}
+                 render={() => <Redirect to={'/travel-app'}/>}/>
 
-          <Route exact path='/'
+          <Route exact path='/travel-app'
                  render={() => <SuspendedHomePage />}/>
 
-          <Route exact path='/country/:query?'
+          <Route exact path='/travel-app/country/:query?'
                  render={() => <SuspendedCountryPage />}/>
 
-          <Route exact path='*'
+          <Route exact path='/travel-app/*'
                  render={() => <div>404 NOT FOUND</div>}/>
         </Switch>
         <Footer />

@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 
 export default function Logo () {
   return (
-    <NavLink to={'/'}>
+    <NavLink to={'/travel-app/'}>
       <svg width="150" height="50" viewBox="0 0 55.095 20.5" className="navigation__logo" >
         <animate attributeType="CSS" attributeName="height" id = "increase"
                   to="55px" dur="0.5s" begin="mouseenter" fill="freeze"/>

@@ -17,7 +17,7 @@ const SearchBar = (props) => {
 
     const addResentWordEvent = () => {
         const value = inputEl.current?.value.trim();
-        if (value.length !== 0) setRedirect(`/country/${value}`)
+        if (value.length !== 0) setRedirect(`/travel-app/country/${value}`)
 
         dispatch(setInput(''));
     }

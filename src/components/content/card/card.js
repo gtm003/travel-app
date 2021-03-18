@@ -22,7 +22,7 @@ export default function Card(props) {
       <h2>{props.country.localizations[index].name}</h2>
       <h3>{props.country.localizations[index].capital}</h3>
       <img src={props.country.imageUrl} alt={props.country.imageUrl}></img>
-        {redirect && <Redirect to={`/country/${props.country.localizations[0].name.toLowerCase()}`}/>}
+        {redirect && <Redirect to={`/travel-app/country/${props.country.localizations[0].name.toLowerCase()}`}/>}
     </div>
   )
 }
