@@ -1,0 +1,322 @@
+[
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "center": [
+      12.83333,
+      42.83333
+    ],
+    "capitalLocation": {
+      "coordinates": [
+        12.496365,
+        41.902782
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://picua.org/images/2019/01/22/07a691733a5c2157d0a6c3b31773c314.jpg",
+    "videoUrl": "https://www.youtube.com/embed/FlRwssZYRM0",
+    "currency": "EUR",
+    "ISOCode": "IT",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Rome",
+        "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic (Italian: Repubblica Italiana [reˈpubːlika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it. Italy is located in Southern Europe, and is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
+        "name": "Italy"
+      },
+      {
+        "lang": "ru",
+        "capital": "Рим",
+        "description": "Ита́лия (итал. Italia [iˈtaːlja]), официальное название — Италья́нская Респу́блика (итал. Repubblica Italiana [reˈpubːlika itaˈljaːna]) — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.  Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).  Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.  Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.  На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству.",
+        "name": "Италия"
+      },
+      {
+        "lang": "bel",
+        "capital": "Рым",
+        "description": "Італія (іт. Italia [itaːlja]), афіцыйная назва - Італьянская Рэспубліка (іт. Repubblica Italiana [repubːlika italjaːna]) - дзяржава ў Паўднёвай Еўропе, у цэнтры Міжземнамор'я. Уваходзіць у Еўрасаюз і НАТА з моманту іх стварэння, з'яўляецца трэцяй па велічыні эканомікай еўразоны. Мяжуе з Францыяй на паўночным захадзе (працягласць мяжы - 488 км), Швейцарыяй (740 км) і Аўстрыяй (430 км) - на поўначы, Славеніяй - на паўночным усходзе (232 км). Ўнутры тэрыторыі Італіі знаходзяцца дзве дзяржавы-анклава: дзяржава Сан-Марына і размешчана ўнутры тэрыторыі Рыма асацыяванае з Італіяй дзяржава Ватыкан, з кожным з якіх Італія мае ўнутраную мяжу працягласцю адпаведна 39 км і 3,2 км. Займае Апенінскі паўвостраў, крайні паўночны захад Балканскага паўвострава, Паданская раўніну, паўднёвыя схілы Альп, выспы Сіцылія, Сардзінія і шэраг дробных астравоў. На тэрыторыі Італіі знаходзіцца 55 помнікаў Сусветнай спадчыны ЮНЕСКА - Італія падзяляе з Кітаем першае месца па іх колькасці.",
+        "name": "Італія"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "center": [
+      10.5,
+      51.5
+    ],
+    "capitalLocation": {
+      "coordinates": [
+        13.4105300,
+        52.5243700
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://kidpassage.com/images/publications/berlin-avguste-otdyh-pogoda/cover_original.jpg",
+    "videoUrl": "https://www.youtube.com/embed/IPbzWJNmndY",
+    "currency": "EUR",
+    "ISOCode": "DE",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Berlin",
+        "description": "Germany is a country located in the heart of Western Europe. It is bordered by Denmark, Poland, Czechia, Austria, Switzerland, France, Luxembourg, Belgium, Netherlands, the North Sea, and the Baltic Sea. Germany has a strategic location on the North European Plain and along the entrance to the Baltic Sea. The government system is a federal republic; the chief of state is the president, and the head of government is the chancellor. Germany has a mixed economic system which includes a variety of private freedom, combined with centralized economic planning and government regulation. Germany is a member of the European Union (EU).",
+        "name": "Germany"
+      },
+      {
+        "lang": "ru",
+        "capital": "Берлин",
+        "description": "Германия - страна, расположенная в самом сердце Западной Европы. Онa граничит с Данией, Польшей, Чехией, Австрией, Швейцарией, Францией, Люксембургом, Бельгией, Нидерландами, Северным и Балтийским морями. Германия занимает стратегическое положение на Северо-Европейской равнине и у входа в Балтийское море. Государственная система - федеративная республика; глава государства - президент, а глава правительства - канцлер. В Германии смешанная экономическая система, которая включает в себя различные частные свободы в сочетании с централизованным экономическим планированием и государственным регулированием. Германия является членом Европейского Союза (ЕС).",
+        "name": "Германия"
+      },
+      {
+        "lang": "bel",
+        "capital": "Берлін",
+        "description": "Германія - краіна, размешчаная ў самым сэрцы Заходняй Еўропы. Яна мяжуе з Даніяй, Польшчай, Чэхіяй, Аўстрыяй, Швейцарыяй, Францыяй, Люксембургам, Бельгіяй, Нідэрландамі, Паўночным і Балтыйскім морамі. Германія займае стратэгічнае становішча на Паўночна-Еўрапейскай раўніне і непасрэдна перад уваходам у Балтыйскае мора. Дзяржаўная сістэма - федэратыўная рэспубліка; кіраўнік дзяржавы - прэзідэнт, а кіраўнік урада - канцлер. У Нямеччыне змяшаная эканамічная сістэма, якая ўключае ў сябе розныя прыватныя волі ў спалучэнні з цэнтралізаваным эканамічным планаваннем і дзяржаўным рэгуляваннем. Германія з'яўляецца членам Еўрапейскага Саюза (ЕС).",
+        "name": "Германія"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "center": [
+      -2.69531,
+      54.75844
+    ],
+    "capitalLocation": {
+      "coordinates": [
+        -0.1257400,
+        51.5085300
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
+    "videoUrl": "https://www.youtube.com/embed/wSHXd-K-jIk",
+    "currency": "GBP",
+    "ISOCode": "GB-ENG",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "London",
+        "description": "England is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south.The most common landscape in this part of the UK is gently rolling hills. To the north are the Pennines, home to Skofel Pike, the highest point in England (978 m). The country boasts many natural beauties. These are, for example, the White Cliffs of Dover, the Jurassic Coast, the Rocky Territory, the South Downs and North Downs, the Cheddar Gorge, the New Forest National Park, the Isle of Wight, etc. In addition, it is popular with tourists. the Cotswolds area is the \"heart of England\", where there are many villages that have retained their traditional look.",
+        "name": "England"
+      },
+      {
+        "lang": "ru",
+        "capital": "Лондон",
+        "description": "Англия - это страна, которая входит в состав Соединенного Королевства. Он граничит с Уэльсом на западе и Шотландией на севере. Ирландское море находится к северо-западу от Англии, а Кельтское море - на юго-запад. Англия отделена от континентальной Европы Северным морем на востоке и Ла-Маншем на юге.Наиболее распространенный вид ландшафта в этой части Великобритании – это пологие холмы. На севере расположены Пеннинские горы, где находится Скофел-Пайк – самая высокая точка Англии (978 м). Страна может похвастаться множеством природных красот. Это, например, Белые скалы Дувра, «Юрское побережье», Скалистый край, холмы Саут-Даунс и Норт-Даунс, Чеддерское ущелье, национальный парк «Нью-Форест», остров Уайт и т. д. Кроме того, популярностью у туристов пользуется район Котсуолдс – «сердце Англии», где расположено много деревень, сохранивших свой традиционный облик.",
+        "name": "Англия"
+      },
+      {
+        "lang": "bel",
+        "capital": "Лондон",
+        "description": "Англія - гэта краіна, якая ўваходзіць у склад Злучанага Каралеўства. Ён мяжуе з Уэльсам на захадзе і Шатландыяй на поўначы. Ірландскае мора знаходзіцца на паўночны захад ад Англіі, а кельцкі моры - на паўднёвы захад. Англія аддзеленая ад кантынентальнай Еўропы Паўночным морам на ўсходзе і Ла-Маншам на поўдні. Найбольш распаўсюджаны выгляд ландшафту ў гэтай частцы Вялікабрытаніі - гэта спадзістыя пагоркі. На поўначы размешчаны Пенінскія горы, дзе знаходзіцца Скофел-Пайк - самая высокая кропка Англіі (978 м). Краіна можа пахваліцца мноствам прыродных прыгажосцяў. Гэта, напрыклад, Белыя скалы Дувра, «Юрскага узбярэжжы», Скалісты край, пагоркі Саўт-Даунс і Норт-Даунс, Чеддерское цясніну, нацыянальны парк «Нью-Форэст», востраў Уайт і т. Д. Акрамя таго, папулярнасцю ў турыстаў карыстаецца раён Котсуолдс - «сэрца Англіі», дзе размешчана шмат вёсак, якія захавалі свой традыцыйны аблічча.",
+        "name": "Англія"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "center": [
+      -98.5,
+      39.76
+    ],
+    "capitalLocation": {
+      "coordinates": [
+        -77.0363700,
+        38.8951100
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://img-cdn.tinkoffjournal.ru/-/main____wachington___shutterstock_371583031.6u7swtpjytxf.jpg",
+    "videoUrl": "https://www.youtube.com/embed/b7FNvq11CEw",
+    "currency": "USD",
+    "ISOCode": "US",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Washington",
+        "description": "United States of America, abbreviated U.S. or U.S.A., byname America, country in North America, a federal republic of 50 states. Besides the 48 conterminous states that occupy the middle latitudes of the continent, the United States includes the state of Alaska, at the northwestern extreme of North America, and the island state of Hawaii, in the mid-Pacific Ocean. The conterminous states are bounded on the north by Canada, on the east by the Atlantic Ocean, on the south by the Gulf of Mexico and Mexico, and on the west by the Pacific Ocean. The United States is the fourth largest country in the world in area (after Russia, Canada, and China). The national capital is Washington, which is coextensive with the District of Columbia, the federal capital region created in 1790. The major characteristic of the United States is probably its great variety. Its physical environment ranges from the Arctic to the subtropical, from the moist rain forest to the arid desert, from the rugged mountain peak to the flat prairie. Although the total population of the United States is large by world standards, its overall population density is relatively low. The country embraces some of the world’s largest urban concentrations as well as some of the most extensive areas that are almost devoid of habitation.",
+        "name": "USA"
+      },
+      {
+        "lang": "ru",
+        "capital": "Вашингтон",
+        "description": "Соединенные Штаты Америки, сокращенно США, страна в Северной Америке, федеративная республика из 50 штатов. Помимо 48 смежных штатов, расположенных на средних широтах континента, Соединенные Штаты включают штат Аляска на северо-западе Северной Америки и островной штат Гавайи в центре Тихого океана. Смежные государства ограничены на севере Канадой, на востоке - Атлантическим океаном, на юге - Мексиканским заливом и Мексикой, а на западе - Тихим океаном. Соединенные Штаты являются четвертой по величине страной в мире по площади (после России, Канады и Китая). Столица страны - Вашингтон, который совпадает с округом Колумбия, федеральным столичным регионом, созданным в 1790 году. Основная характеристика Соединенных Штатов, вероятно, заключается в их большом разнообразии. Его физическая среда варьируется от арктической до субтропической, от влажных тропических лесов до засушливой пустыни, от крутых горных вершин до плоских прерий. Хотя общая численность населения Соединенных Штатов Америки велика по мировым стандартам, общая плотность населения относительно невысока. Страна включает в себя одни из крупнейших в мире городов с концентрацией, а также некоторые из самых обширных районов, которые почти лишены жилья.",
+        "name": "США"
+      },
+      {
+        "lang": "bel",
+        "capital": "Вашынгтон",
+        "description": "Злучаныя Штаты Амерыкі, скарочана ЗША, краіна ў Паўночнай Амерыцы, федэратыўная рэспубліка з 50 штатаў. Акрамя 48 сумежных штатаў, размешчаных на сярэдніх шыротах кантынента, Злучаныя Штаты ўключаюць штат Аляска на паўночным захадзе Паўночнай Амерыкі і астраўной штат Гаваі ў цэнтры Ціхага акіяна. Сумежныя дзяржавы абмежаваныя на поўначы Канадай, на ўсходзе - Атлантычным акіянам, на поўдні - Мексіканскім залівам і Мексікай, а на захадзе - Ціхім акіянам. Злучаныя Штаты з'яўляюцца чацвёртай па велічыні краінай у свеце па плошчы (пасля Расіі, Канады і Кітая). Сталіца краіны - Вашынгтон, які супадае з акругай Калумбія, федэральным сталічным рэгіёнам, створаным ў 1790 годзе. Асноўная характарыстыка Злучаных Штатаў, верагодна, заключаецца ў іх вялікай разнастайнасці. Яго фізічнае асяроддзе вар'іруецца ад арктычнай да субтрапічнай, ад вільготных трапічных лясоў да засушлівым пустыні, ад стромкіх горных вяршыняў да плоскіх прэрый. Хоць агульная колькасць насельніцтва Злучаных Штатаў Амерыкі вялікая ў сусветным стандартам, агульная шчыльнасць насельніцтва адносна невысокая. Краіна ўключае ў сябе адны з найбуйнейшых у свеце гарадоў з канцэнтрацыяй, а таксама некаторыя з самых шырокіх раёнаў, якія амаль пазбаўленыя жылля.",
+        "name": "ЗША"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "center": [
+      -55.0,
+      -10.0
+    ],
+    "capitalLocation": {
+      "coordinates": [
+        -44.4333300,
+        -16.2063900
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://d1bvpoagx8hqbg.cloudfront.net/originals/experience-brasilia-brazil-ana-julia-3af702255fa3e95988ca10b68b103352.jpg",
+    "videoUrl": "https://www.youtube.com/embed/q7zdJ-nMrlE",
+    "currency": "BRL",
+    "ISOCode": "BR",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Brasilia",
+        "description": "Brazil, officially Federative Republic of Brazil, Portuguese República Federativa do Brasil, country of South America that occupies half the continent’s landmass. It is the fifth largest country in the world, exceeded in size only by Russia, Canada, China, and the United States, though its area is greater than that of the 48 conterminous U.S. states. Brazil faces the Atlantic Ocean along 4,600 miles (7,400 km) of coastline and shares more than 9,750 miles (15,700 km) of inland borders with every South American country except Chile and Ecuador—specifically, Uruguay to the south; Argentina, Paraguay, and Bolivia to the southwest; Peru to the west; Colombia to the northwest; and Venezuela, Guyana, Suriname, and French Guiana to the north. Brazil stretches roughly 2,700 miles (4,350 km) from north to south and from east to west to form a vast irregular triangle that encompasses a wide range of tropical and subtropical landscapes, including wetlands, savannas, plateaus, and low mountains. Brazil contains most of the Amazon River basin, which has the world’s largest river system and the world’s most-extensive virgin rainforest. The country contains no desert, high-mountain, or arctic environments.",
+        "name": "Brazil"
+      },
+      {
+        "lang": "ru",
+        "capital": "Бразилиа",
+        "description": "Бразилия, официально Федеративная Республика Бразилия, Португальская Федеративная Республика Бразилия, страна Южной Америки, занимающая половину территории континента. Это пятая по величине страна в мире, уступая по размерам только России, Канаде, Китаю и США, хотя ее площадь больше, чем у 48 соседних штатов США. Бразилия выходит к Атлантическому океану вдоль береговой линии на 4600 миль (7400 км) и имеет более 9750 миль (15700 км) внутренних границ со всеми южноамериканскими странами, кроме Чили и Эквадора, в частности, с Уругваем на юге; Аргентина, Парагвай и Боливия на юго-западе; Перу на западе; Колумбия на северо-западе; и Венесуэла, Гайана, Суринам и Французская Гвиана на севере. Бразилия простирается примерно на 2700 миль (4350 км) с севера на юг и с востока на запад, образуя обширный неправильный треугольник, охватывающий широкий спектр тропических и субтропических ландшафтов, включая водно-болотные угодья, саванны, плато и невысокие горы. В Бразилии находится большая часть бассейна реки Амазонки, в которой находится крупнейшая в мире речная система и самые обширные девственные тропические леса в мире. В стране нет пустынь, высокогорья или арктики.",
+        "name": "Бразилия"
+      },
+      {
+        "lang": "bel",
+        "capital": "Бразіліа",
+        "description": "Бразілія, афіцыйна Федэратыўная Рэспубліка Бразілія, Партугальская Федэратыўная Рэспубліка Бразілія, краіна Паўднёвай Амерыкі, якая займае палову тэрыторыі кантынента. Гэта пятая па велічыні краіна ў свеце, саступаючы па памерах толькі Расіі, Канадзе, Кітаі і ЗША, хоць яе пляц больш, чым у 48 суседніх штатаў ЗША. Бразілія выходзіць да Атлантычнага акіяна ўздоўж берагавой лініі на 4600 міль (7400 км) і мае больш 9750 міль (15700 км) унутраных межаў з усімі амерыканскімі краінамі, акрамя Чылі і Эквадора, у прыватнасці, з Уругваем на поўдні; Аргенціна, Парагвай і Балівія на паўднёвым захадзе; Перу на захадзе; Калумбія на паўночным захадзе; і Венесуэла, Гаяна, Сурынам i Французская Гвіяна на поўначы. Бразілія распасціраецца прыкладна на 2700 міль (4350 км) з поўначы на поўдзень і з усходу на захад, утвараючы шырокі няправільны трохкутнік, які ахоплівае шырокі спектр трапічных і субтрапічных ландшафтаў, уключаючы водна-балотныя ўгоддзі, саваны, плато і невысокія горы. У Бразіліі знаходзіцца вялікая частка басейна ракі Амазонкі, у якой знаходзіцца найбуйнейшая ў свеце рачная сістэма і самыя шырокія цнатлівыя трапічныя лесу ў свеце. У краіне няма пустыняў, высакагор'я ці Арктыкі.",
+        "name": "Бразілія,"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "center": [
+      77.0,
+      20.0
+    ],
+    "capitalLocation": {
+      "coordinates": [
+        77.22897,
+        28.65381
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://media.tacdn.com/media/attractions-content--1x-1/0b/17/30/05.jpg",
+    "videoUrl": "https://www.youtube.com/embed/IgAnj6r1O48",
+    "currency": "INR",
+    "ISOCode": "IN",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "New Delhi",
+        "description": "India (Hindi: Bhārat), officially the Republic of India (Hindi: Bhārat Gaṇarājya), is a country in South Asia.India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India’s administrative centre. Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world’s total population, India is the second most populous country, after China.",
+        "name": "India"
+      },
+      {
+        "lang": "ru",
+        "capital": "Нью-Дели",
+        "description": "Индия (хинди भारत Bhārat, англ. India), официальное название — Республика Индия (хинди भारत गणराज्य Bhārat Gaṇarājya, англ. Republic of India)Индия, страна, занимающая большую часть Южной Азии. Его столица - Нью-Дели, построенная в 20 веке к югу от исторического центра Старого Дели, чтобы служить административным центром Индии. Его правительство - конституционная республика, которая представляет собой очень разнообразное население, состоящее из тысяч этнических групп и, вероятно, сотен языков. Индия, где проживает примерно одна шестая населения мира, является второй по численности населения страной после Китая.",
+        "name": "Индия"
+      },
+      {
+        "lang": "bel",
+        "capital": "Нью-Дэлі",
+        "description": "Індыя (хіндзі भारत Bhārat, англ. India), афіцыйная назва - Рэспубліка Індыя (хіндзі भारत गणराज्य Bhārat Gaṇarājya, англ. Republic of India) Індыя, краіна, якая займае большую частку Паўднёвай Азіі. Яго сталіца - Нью-Дэлі, пабудаваная ў 20 стагоддзі на поўдзень ад гістарычнага цэнтра Старога Дэлі, каб служыць адміністрацыйным цэнтрам Індыі. Яго ўрад - канстытуцыйная рэспубліка, якая ўяўляе сабой вельмі разнастайнае насельніцтва, якое складаецца з тысяч этнічных груп і, верагодна, сотняў моў. Індыя, дзе пражывае прыкладна адна шостая насельніцтва свету, з'яўляецца другой па колькасці насельніцтва краінай пасля Кітая.",
+        "name": "Індыя"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "center": [
+      139.75309,
+      35.68536
+    ],
+    "capitalLocation": {
+      "coordinates": [
+        139.6917100,
+        35.6895000
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://www.whatusee.ru/wp-content/uploads/2014/10/IMG_3078.jpg",
+    "videoUrl": "https://www.youtube.com/embed/CxuiFNYnEr4",
+    "currency": "JPY",
+    "ISOCode": "JP",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Tokyo",
+        "description": "Japan, island country lying off the east coast of Asia. It consists of a great string of islands in a northeast-southwest arc that stretches for approximately 1,500 miles (2,400 km) through the western North Pacific Ocean. Nearly the entire land area is taken up by the country’s four main islands; from north to south these are Hokkaido (Hokkaidō), Honshu (Honshū), Shikoku, and Kyushu (Kyūshū). Honshu is the largest of the four, followed in size by Hokkaido, Kyushu, and Shikoku. In addition, there are numerous smaller islands, the major groups of which are the Ryukyu (Nansei) Islands (including the island of Okinawa) to the south and west of Kyushu and the Izu, Bonin (Ogasawara), and Volcano (Kazan) islands to the south and east of central Honshu. The national capital, Tokyo (Tōkyō), in east-central Honshu, is one of the world’s most populous cities.",
+        "name": "Japan"
+      },
+      {
+        "lang": "ru",
+        "capital": "Токио",
+        "description": "Япония, островное государство у восточного побережья Азии. Он состоит из большой череды островов, образующих дугу с северо-востока на юго-запад, которая тянется примерно на 1500 миль (2400 км) через западную часть северной части Тихого океана. Почти вся территория страны занята четырьмя главными островами страны; с севера на юг это Хоккайдо (Хоккайдо), Хонсю (Хонсю), Сикоку и Кюсю (Кюсю). Хонсю - самый большой из четырех, за ним следуют Хоккайдо, Кюсю и Сикоку. Кроме того, есть множество более мелких островов, основными группами которых являются острова Рюкю (Нансей) (включая остров Окинава) к югу и западу от Кюсю, а также острова Идзу, Бонин (Огасавара) и Вулкан (Казань). к югу и востоку от центрального Хонсю. Столица страны, Токио (Токио), находится на востоке центральной части острова Хонсю, и является одним из самых густонаселенных городов мира.",
+        "name": "Япония"
+      },
+      {
+        "lang": "bel",
+        "capital": "Токіо",
+        "description": "Японія, астраўная дзяржава ля ўсходняга ўзбярэжжа Азіі. Ён складаецца з вялікай чарады выспаў, якія ўтвараюць дугу з паўночна-усходу на паўднёва-захад, якая цягнецца прыкладна на 1500 міль (2400 км) праз заходнюю частку паўночнай часткі Ціхага акіяна. Амаль уся тэрыторыя краіны занятая чатырма галоўнымі выспамі краіны; з поўначы на \u200B\u200Bпоўдзень гэта Хакайда (Хакайда), Хансю (Хансю), Сікоку і Кюсю (Кюсю). Хансю - самы вялікі з чатырох, за ім ідуць Хакайда, Кюсю і Сікоку. Акрамя таго, ёсць мноства больш дробных астравоў, асноўнымі групамі якіх з'яўляюцца выспы Рюкю (Нансі) (уключаючы востраў Акінава) на поўдзень і захад ад Кюсю, а таксама выспы Ідзу, Баніна (Агасавара) і Вулкан (Казань). на поўдзень і ўсход ад цэнтральнага Хансю. Сталіца краіны, Токіо (Токіо), знаходзіцца на ўсходзе цэнтральнай частцы вострава Хансю, і з'яўляецца адным з самых густанаселеных гарадоў свету.",
+        "name": "Японія"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60270368f347c8267c02a528"
+    },
+    "center": [
+      8.01427,
+      47.00016
+    ],
+    "capitalLocation": {
+      "coordinates": [
+        7.44744,
+        46.94809
+      ],
+      "type": "Point"
+    },
+    "imageUrl": "https://kuku.travel/wp-content/uploads/2018/03/%D0%91%D0%B5%D1%80%D0%BD-%D0%A0%D0%B5%D0%BA%D0%B0-%D0%90%D0%B0%D1%80%D0%B5.jpg",
+    "videoUrl": "https://www.youtube.com/embed/oZRBUBbfIJ8",
+    "currency": "CHF",
+    "ISOCode": "CH",
+    "localizations": [
+      {
+        "lang": "en",
+        "capital": "Bern",
+        "description": "Switzerland, federated country of central Europe. Switzerland’s administrative capital is Bern, while Lausanne serves as its judicial centre. Switzerland’s small size—its total area is about half that of Scotland—and its modest population give little indication of its international significance.A landlocked country of towering mountains, deep Alpine lakes, grassy valleys dotted with neat farms and small villages, and thriving cities that blend the old and the new, Switzerland is the nexus of the diverse physical and cultural geography of western Europe, renowned for both its natural beauty and its way of life. Aspects of both have become bywords for the country, whose very name conjures images of the glacier-carved Alps beloved of writers, artists, photographers, and outdoor sports enthusiasts from around the world.",
+        "name": "Switzerland"
+      },
+      {
+        "lang": "ru",
+        "capital": "Берн",
+        "description": "Швейцария, федеративная страна Центральной Европы. Административная столица Швейцарии - Берн, а Лозанна - ее судебный центр. Небольшие размеры Швейцарии - ее общая площадь составляет примерно половину площади Шотландии - и ее скромное население мало указывает на ее международное значение.Страна, не имеющая выхода к морю, с высокими горами, глубокими альпийскими озерами, травянистыми долинами, усеянными аккуратными фермами и небольшими деревнями, а также процветающими городами, сочетающими в себе старое и новое, Швейцария является центром разнообразной физической и культурной географии Западной Европы, известной как его естественная красота и его образ жизни. Оба аспекта стали притчей во языцех для страны, само название которой вызывает в воображении образы высеченных ледниками Альп, любимых писателями, художниками, фотографами и любителями спорта на открытом воздухе со всего мира.",
+        "name": "Швейцария"
+      },
+      {
+        "lang": "bel",
+        "capital": "Бэрн",
+        "description": "Швейцарыя, федэратыўная краіна Цэнтральнай Еўропы. Адміністрацыйная сталіца Швейцарыі - Бэрн, а Лазана - яе судовы цэнтр. Невялікія памеры Швейцарыі - яе агульная плошча складае прыкладна палову плошчы Шатландыі - і яе сціплае насельніцтва мала паказвае на яе міжнароднае значение.Страна, якая не мае выхаду да мора, з высокімі гарамі, глыбокімі альпійскімі азёрамі, травяністымі далінамі, усеянымі акуратнымі фермамі і невялікімі вёскамі, а таксама квітнеючымі гарадамі, спалучалымі ў сабе старое і новае, Швейцарыя з'яўляецца цэнтрам разнастайнай фізічнай і культурнай геаграфіі Заходняй Еўропы, вядомай як яго натуральная прыгажосць і яго лад жыцця. Абодва аспекты сталі пагалоскай для краіны, сама назва якой выклікае ва ўяўленні вобразы высечаных ледавікамі Альпаў, любімых пісьменнікамі, мастакамі, фатографамі і аматарамі спорту на адкрытым паветры з усяго свету.",
+        "name": "Швейцарыя"
+      }
+    ]
+  }
+]

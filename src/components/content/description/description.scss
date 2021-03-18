@@ -1,0 +1,22 @@
+@import "src/sass/abstract/constants";
+.description {
+  //border: 1px solid green;
+  //padding: 1rem;
+  width: 47vw;
+  @media screen and (max-width: $content-width-little) {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .avatar {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 1rem;
+    border-radius: 6px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+}
